@@ -15298,5 +15298,8 @@
     "importButton": "Importeren",
     "importFailed": "Importeren mislukt.",
     "importSuccess": "{connections} accounts en {nodes} providernodes geïmporteerd; {skipped} overgeslagen."
+  },
+  "logExport": {
+    "startFromCurrentPosition": "Begin vanaf de huidige positie (bestaande logboeken overslaan)"
   }
 }
