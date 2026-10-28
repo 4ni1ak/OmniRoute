@@ -2978,6 +2978,7 @@
       "amp": "Úsalo cuando quieras los flujos abreviados de Amp, pero sigas necesitando que se apliquen los alias y las reglas de enrutamiento de OmniRoute.",
       "hermes": "Úselo cuando necesite un asistente de IA nativo de terminal liviano para tareas rápidas.",
       "hermes-agent": "Utilizar cuando necesites el agente Hermes (de Nousresearch) con modelos predeterminados, de delegación, visión y auxiliares enrutados mediante OmniRoute.",
+      "whycodes": "Utilizar cuando quieras WhyCodes como agente CLI autónomo de uso general (TUI, agentes con nombre, memoria, swarm) apuntando a OmniRoute.",
       "custom": "Úselo para implementaciones de herramientas personalizadas o configuraciones genéricas compatibles con OpenAI."
     },
     "toolDescriptions": {
@@ -3018,6 +3019,7 @@
       "warp": "Terminal Warp AI compatible con proveedores personalizados",
       "agent-deck": "Orquestador multiagente Agent Deck",
       "5dive": "5dive — flota autoalojada de agentes de codificación; un perfil de autenticación los apunta todos a OmniRoute",
+      "whycodes": "Agente CLI autónomo WhyCodes con URL base compatible con OpenAI",
       "zed": "Editor de código Zed — agente integrado mediante un proveedor compatible con OpenAI"
     },
     "guides": {

@@ -2978,6 +2978,7 @@
       "amp": "Koristite kada želite Amp shorthand radne tokove, ali i dalje trebate primjenu OmniRoute aliasa i pravila rutiranja.",
       "hermes": "Koristite kada vam je potreban lagani terminal-native AI asistent za brze zadatke.",
       "hermes-agent": "Koristite kada vam je potreban Hermes Agent (od Nousresearch) sa default, delegation, vision i auxiliary modelima rutiranim kroz OmniRoute.",
+      "whycodes": "Koristite kada želite WhyCodes kao autonomni CLI agent opće namjene (TUI, imenovani agenti, memorija, swarm) usmjeren na OmniRoute.",
       "custom": "Koristite za prilagođene implementacije alata ili generičke OpenAI-kompatibilne konfiguracije."
     },
     "toolDescriptions": {
@@ -3018,6 +3019,7 @@
       "warp": "Warp AI terminal sa podrškom za prilagođene provajdere",
       "agent-deck": "Agent Deck orkestrator više agenata",
       "5dive": "5dive — self-hosted flota coding agenata; jedan auth profil sve njih usmjerava na OmniRoute",
+      "whycodes": "WhyCodes autonomni CLI agent s OpenAI-kompatibilnim osnovnim URL-om",
       "zed": "Zed uređivač koda — ugrađeni agent putem OpenAI-kompatibilnog provajdera"
     },
     "guides": {
