@@ -2962,6 +2962,14 @@
     "openClawManualConfiguration": "Open Claw - Ìṣètò aláfọwọ́ṣe",
     "clineManualConfiguration": "Ìṣètò aláfọwọ́ṣe Cline",
     "kiloManualConfiguration": "Ìṣètò aláfọwọ́ṣe Kilo Code",
+    "piManualConfiguration": "Pi - Afowoyi iṣeto ni",
+    "piConfigInvalidTitle": "Pi models.json ko ṣee ka",
+    "piOmnirouteConfigured": "OmniRoute jẹ atunto bi olupese aṣa Pi kan",
+    "piModelHelp": "Pi ko ṣe iwari awọn awoṣe adaṣe fun awọn aaye ipari aṣa — awoṣe ti o mu ni a kọ sinu models.json ni gbangba.",
+    "piManualConfigTitle": "Tabi ṣatunkọ ~/.pi/agent/models.json pẹlu ọwọ",
+    "piManualConfigSample": "'{\n  \"providers\": {\n    \"omniroute\": {\n      \"baseUrl\": \"http://127.0.0.1:20128/v1\",\n      \"api\": \"openai-completions\",\n      \"apiKey\": \"sk_omniroute\",\n      \"models\": [\n        { \"id\": \"auto/best-coding\", \"name\": \"OmniRoute best-coding\" }\n      ]\n    }\n  }\n}'",
+    "piManualConfigHint": "Lẹhinna bẹrẹ Pi ko si yan olupese omniroute. Ṣeto PI_CODING_AGENT_DIR lati gbe gbogbo itọsọna aṣoju lọ.",
+    "piUnownedNote": "Ti fikun titẹsi yii ni ita OmniRoute (fun apẹẹrẹ awọn aaye ipari Aṣa pi-gui). Nbere yoo gba o; Tunto nikan yọ awọn titẹ sii OmniRoute kowe kuro.",
     "whenToUseLabel": "Ìgbà tí o yẹ kí o lò ó",
     "openToolDocs": "Ṣí àwọn ìwé ìtọ́sọ́nà irinṣẹ́",
     "toolUseCases": {
@@ -3281,6 +3289,12 @@
     "cliproxyapiUpdate": "Ṣe ìmúdójúìwọ̀n",
     "cliproxyapiUpdateAvailable": "Ìmúdójúìwọ̀n wà: v{current} → v{latest}",
     "cliproxyapiVersion": "Ẹ̀yà",
+    "piInstallTitle": "Fi Aṣoju Ifaminsi Pi sori ẹrọ",
+    "piInstallInstructions": "Fi Pi CLI sori ẹrọ, lẹhinna pada si ibi lati so pọ mọ OmniRoute.",
+    "piInstallCommand": "npm install -g --ignore-scripts @earendil-works/pi-coding-agent",
+    "piEndpoint": "OmniRoute URL",
+    "piEndpointHelp": "Lo URL arọwọto lati ẹrọ nṣiṣẹ Pi. Oju opo opin /v1 ti OpenAI-ibaramu ti wa ni afikun laifọwọyi.",
+    "piManualMergeHint": "Awotẹlẹ nikan. Darapọ iwọle providers.omniroute yii sinu models.json nitoribẹẹ awọn olupese ati eto rẹ miiran wa ni mimule.",
     "removeMapping": "Yọ ìbáṣepọ̀ náà kúrò"
   },
   "modelCatalog": {

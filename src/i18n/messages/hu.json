@@ -2962,6 +2962,14 @@
     "openClawManualConfiguration": "Open Claw – Manuális konfiguráció",
     "clineManualConfiguration": "Cline kézi konfiguráció",
     "kiloManualConfiguration": "Kiló kód kézi konfiguráció",
+    "piManualConfiguration": "Pi - Kézi konfiguráció",
+    "piConfigInvalidTitle": "A Pi models.json olvashatatlan",
+    "piOmnirouteConfigured": "OmniRoute egyéni Pi szolgáltatóként van konfigurálva",
+    "piModelHelp": "A Pi nem fedezi fel automatikusan a modelleket az egyéni végpontokhoz — a kiválasztott modell kifejezetten models.json be van írva.",
+    "piManualConfigTitle": "Vagy szerkesztheti ~/.pi/agent/models.json manuálisan",
+    "piManualConfigSample": "'{\n  \"providers\": {\n    \"omniroute\": {\n      \"baseUrl\": \"http://127.0.0.1:20128/v1\",\n      \"api\": \"openai-completions\",\n      \"apiKey\": \"sk_omniroute\",\n      \"models\": [\n        { \"id\": \"auto/best-coding\", \"name\": \"OmniRoute best-coding\" }\n      ]\n    }\n  }\n}'",
+    "piManualConfigHint": "Ezután indítsa el a Pi-t, és válassza ki az omniroute szolgáltatót. Állítsa be PI_CODING_AGENT_DIR a teljes ügynökkönyvtár áthelyezéséhez.",
+    "piUnownedNote": "Ez a bejegyzés OmniRoute kívül lett hozzáadva (pl. a pi-gui egyéni végpontjain). A jelentkezés elfogadja azt; A Reset csak OmniRoute által írt bejegyzéseket távolítja el.",
     "whenToUseLabel": "Mikor kell használni",
     "openToolDocs": "Nyissa meg az eszközdokumentumokat",
     "toolUseCases": {
@@ -3281,6 +3289,12 @@
     "cliproxyapiUpdate": "Frissítés",
     "cliproxyapiUpdateAvailable": "Frissítés elérhető: v{current} → v{latest}",
     "cliproxyapiVersion": "Verzió",
+    "piInstallTitle": "Telepítse a Pi kódoló ügynököt",
+    "piInstallInstructions": "Telepítse a Pi CLI, majd térjen vissza ide, hogy csatlakoztassa OmniRoute.",
+    "piInstallCommand": "npm install -g --ignore-scripts @earendil-works/pi-coding-agent",
+    "piEndpoint": "OmniRoute URL",
+    "piEndpointHelp": "Használja a Pi-t futtató gépről elérhető URL. Az OpenAI-kompatibilis /v1 végpont automatikusan hozzáadódik.",
+    "piManualMergeHint": "Csak előnézet. Egyesítse ezt a providers.omniroute bejegyzést models.json így a többi szolgáltató és beállításai érintetlenek maradnak.",
     "removeMapping": "Leképezés eltávolítása"
   },
   "modelCatalog": {

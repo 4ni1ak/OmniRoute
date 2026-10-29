@@ -2962,6 +2962,14 @@
     "openClawManualConfiguration": "Open Claw - налаштування вручну",
     "clineManualConfiguration": "Ручне налаштування Cline",
     "kiloManualConfiguration": "Налаштування коду кіло вручну",
+    "piManualConfiguration": "Pi - ручна конфігурація",
+    "piConfigInvalidTitle": "Pi models.json не читається",
+    "piOmnirouteConfigured": "OmniRoute налаштовано як власний постачальник Pi",
+    "piModelHelp": "Pi не виявляє автоматично моделі для користувацьких кінцевих точок — вибрана вами модель записується в models.json явно.",
+    "piManualConfigTitle": "Або відредагуйте ~/.pi/agent/models.json вручну",
+    "piManualConfigSample": "'{\n  \"providers\": {\n    \"omniroute\": {\n      \"baseUrl\": \"http://127.0.0.1:20128/v1\",\n      \"api\": \"openai-completions\",\n      \"apiKey\": \"sk_omniroute\",\n      \"models\": [\n        { \"id\": \"auto/best-coding\", \"name\": \"OmniRoute best-coding\" }\n      ]\n    }\n  }\n}'",
+    "piManualConfigHint": "Потім запустіть Pi і виберіть постачальника omniroute. Налаштуйте PI_CODING_AGENT_DIR для переміщення всього каталогу агента.",
+    "piUnownedNote": "Цей запис було додано поза OmniRoute (наприклад, призначені для користувача кінцеві точки pi-gui). Заявка прийме його; Скидання видаляє лише записи, написані OmniRoute.",
     "whenToUseLabel": "Коли використовувати",
     "openToolDocs": "Відкрийте документацію інструмента",
     "toolUseCases": {
@@ -3281,6 +3289,12 @@
     "cliproxyapiUpdate": "Оновити",
     "cliproxyapiUpdateAvailable": "Доступне оновлення: v{current} → v{latest}",
     "cliproxyapiVersion": "Версія",
+    "piInstallTitle": "Встановіть Pi Coding Agent",
+    "piInstallInstructions": "Встановіть Pi CLI, потім поверніться сюди, щоб підключити його до OmniRoute.",
+    "piInstallCommand": "npm install -g --ignore-scripts @earendil-works/pi-coding-agent",
+    "piEndpoint": "OmniRoute URL",
+    "piEndpointHelp": "Використовуйте URL доступний з машини, на якій працює Pi. Кінцева точка /v1, сумісна з OpenAI, додається автоматично.",
+    "piManualMergeHint": "Тільки попередній перегляд. Об’єднайте цей запис providers.omniroute у models.json, щоб ваші інші постачальники та налаштування залишилися без змін.",
     "removeMapping": "Видалити зіставлення"
   },
   "modelCatalog": {

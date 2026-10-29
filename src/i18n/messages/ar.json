@@ -3039,6 +3039,14 @@
     "openClawManualConfiguration": "OpenClaw - التكوين اليدوي",
     "clineManualConfiguration": "التكوين اليدوي Cline",
     "kiloManualConfiguration": "التكوين اليدوي Kilo code",
+    "piManualConfiguration": "Pi - التكوين اليدوي",
+    "piConfigInvalidTitle": "Pi models.json غير قابل للقراءة",
+    "piOmnirouteConfigured": "تم تكوين OmniRoute كموفر Pi مخصص",
+    "piModelHelp": "لا يقوم Pi باكتشاف النماذج تلقائيًا لنقاط النهاية المخصصة — النموذج الذي تختاره مكتوب في models.json بشكل صريح.",
+    "piManualConfigTitle": "أو تحرير ~/.pi/agent/models.json يدويًا",
+    "piManualConfigSample": "'{\n  \"providers\": {\n    \"omniroute\": {\n      \"baseUrl\": \"http://127.0.0.1:20128/v1\",\n      \"api\": \"openai-completions\",\n      \"apiKey\": \"sk_omniroute\",\n      \"models\": [\n        { \"id\": \"auto/best-coding\", \"name\": \"OmniRoute best-coding\" }\n      ]\n    }\n  }\n}'",
+    "piManualConfigHint": "ثم ابدأ Pi وحدد موفر omniroute. اضبط PI_CODING_AGENT_DIR لنقل دليل الوكيل بالكامل.",
+    "piUnownedNote": "تمت إضافة هذا الإدخال خارج OmniRoute (مثل نقاط النهاية المخصصة لـ pi-gui). سوف يعتمده التقديم؛ إعادة التعيين تؤدي فقط إلى إزالة الإدخالات التي كتبها OmniRoute.",
     "whenToUseLabel": "متى تستخدم",
     "openToolDocs": "افتح مستندات الأداة",
     "toolUseCases": {
@@ -3358,6 +3366,12 @@
     "cliproxyapiUpdate": "تحديث",
     "cliproxyapiUpdateAvailable": "تحديث متاح: v{current} → v{latest}",
     "cliproxyapiVersion": "الإصدار",
+    "piInstallTitle": "قم بتثبيت وكيل Pi Coding",
+    "piInstallInstructions": "قم بتثبيت Pi CLI، ثم ارجع إلى هنا لتوصيله بـ OmniRoute.",
+    "piInstallCommand": "npm install -g --ignore-scripts @earendil-works/pi-coding-agent",
+    "piEndpoint": "OmniRoute URL",
+    "piEndpointHelp": "استخدم URL الذي يمكن الوصول إليه من الجهاز الذي يقوم بتشغيل Pi. تتم إضافة نقطة النهاية /v1 المتوافقة مع OpenAI تلقائيًا.",
+    "piManualMergeHint": "معاينة فقط. قم بدمج إدخال providers.omniroute هذا في models.json حتى يظل مقدمو الخدمة والإعدادات الأخرى كما هي.",
     "removeMapping": "إزالة التعيين"
   },
   "modelCatalog": {

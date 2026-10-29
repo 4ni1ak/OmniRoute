@@ -2962,6 +2962,14 @@
     "openClawManualConfiguration": "Open Claw - Saitawa da Hannu",
     "clineManualConfiguration": "Saitawa da Hannu na Cline",
     "kiloManualConfiguration": "Saitawa da Hannu na Kilo Code",
+    "piManualConfiguration": "Pi - Kanfigareshan Manual",
+    "piConfigInvalidTitle": "Pi models.json baya karantawa",
+    "piOmnirouteConfigured": "an saita OmniRoute azaman mai bada al'ada na Pi",
+    "piModelHelp": "Pi baya gano samfura kai-tsaye don wuraren ƙarshe na al'ada — samfurin da kuka zaɓa an rubuta shi cikin models.json a sarari.",
+    "piManualConfigTitle": "Ko gyara ~/.pi/agent/models.json da hannu",
+    "piManualConfigSample": "'{\n  \"providers\": {\n    \"omniroute\": {\n      \"baseUrl\": \"http://127.0.0.1:20128/v1\",\n      \"api\": \"openai-completions\",\n      \"apiKey\": \"sk_omniroute\",\n      \"models\": [\n        { \"id\": \"auto/best-coding\", \"name\": \"OmniRoute best-coding\" }\n      ]\n    }\n  }\n}'",
+    "piManualConfigHint": "Sannan fara Pi kuma zaɓi mai bada omniroute. Saita PI_CODING_AGENT_DIR don matsar da dukan directory directory.",
+    "piUnownedNote": "An ƙara wannan shigarwar a wajen OmniRoute (misali Pi-gui's Custom endpoints). Neman za a karbe shi; Sake saitin yana cire abubuwan da OmniRoute ya rubuta kawai.",
     "whenToUseLabel": "Lokacin amfani",
     "openToolDocs": "Buɗe takardun bayanin kayan aikin",
     "toolUseCases": {
@@ -3281,6 +3289,12 @@
     "cliproxyapiUpdate": "Sabunta",
     "cliproxyapiUpdateAvailable": "Akwai sabuntawa: v{current} → v{latest}",
     "cliproxyapiVersion": "Siga",
+    "piInstallTitle": "Shigar da Pi Coding Agent",
+    "piInstallInstructions": "Sanya Pi CLI, sannan komawa nan don haɗa shi zuwa OmniRoute.",
+    "piInstallCommand": "npm install -g --ignore-scripts @earendil-works/pi-coding-agent",
+    "piEndpoint": "OmniRoute URL",
+    "piEndpointHelp": "Yi amfani da URL da za a iya samu daga na'urar da ke aiki da Pi. Ana ƙara ƙarshen ƙarshen OpenAI-mai jituwa/v1 ta atomatik.",
+    "piManualMergeHint": "Dubawa kawai. Haɗa wannan shigarwar providers.omniroute cikin models.json don haka sauran masu samarwa da saitunanku su kasance lafiyayyu.",
     "removeMapping": "Cire taswira"
   },
   "modelCatalog": {

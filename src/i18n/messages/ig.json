@@ -2962,6 +2962,14 @@
     "openClawManualConfiguration": "Open Claw - Nhazi Aka",
     "clineManualConfiguration": "Nhazi Aka nke Cline",
     "kiloManualConfiguration": "Nhazi Aka nke Kilo Code",
+    "piManualConfiguration": "Pi - Nhazi ntuziaka",
+    "piConfigInvalidTitle": "Pi models.json enweghị ike ịgụ ya",
+    "piOmnirouteConfigured": "Ahaziri OmniRoute ka ọ bụrụ onye na-eweta omenala Pi",
+    "piModelHelp": "Pi anaghị achọpụta onwe ya ụdị maka ngwụcha ngwụcha — ihe nlereanya ị na-ahọrọ ka edere ya na models.json nke ọma.",
+    "piManualConfigTitle": "Ma ọ bụ jiri aka dezie ~/.pi/agent/models.json",
+    "piManualConfigSample": "'{\n  \"providers\": {\n    \"omniroute\": {\n      \"baseUrl\": \"http://127.0.0.1:20128/v1\",\n      \"api\": \"openai-completions\",\n      \"apiKey\": \"sk_omniroute\",\n      \"models\": [\n        { \"id\": \"auto/best-coding\", \"name\": \"OmniRoute best-coding\" }\n      ]\n    }\n  }\n}'",
+    "piManualConfigHint": "Wee malite Pi wee họrọ onye na-eweta omniroute. Tọọ PI_CODING_AGENT_DIR ka ibugharịa ndekọ aha ndị ọrụ niile.",
+    "piUnownedNote": "Etinyere ndenye a na mpụga OmniRoute (dịka ngwụcha ngwụcha omenala pi-gui). Ntinye ga-anabata ya; Tọgharia naanị na-ewepụ ndenye OmniRoute dere.",
     "whenToUseLabel": "Mgbe a ga-eji ya",
     "openToolDocs": "Mepee akwụkwọ ntụaka nke ngwa",
     "toolUseCases": {
@@ -3281,6 +3289,12 @@
     "cliproxyapiUpdate": "Melite",
     "cliproxyapiUpdateAvailable": "Mmelite dị: v{current} → v{latest}",
     "cliproxyapiVersion": "Ụdị",
+    "piInstallTitle": "Wụnye onye nnọchite koodu Pi",
+    "piInstallInstructions": "Wụnye Pi CLI, wee laghachi ebe a iji jikọọ ya na OmniRoute.",
+    "piInstallCommand": "npm install -g --ignore-scripts @earendil-works/pi-coding-agent",
+    "piEndpoint": "OmniRoute URL",
+    "piEndpointHelp": "Jiri URL a na-enweta site na igwe na-agba Pi. A na-agbakwunye njedebe OpenAI-dakọtara /v1 na-akpaghị aka.",
+    "piManualMergeHint": "Nhụchalụ naanị. Jikọta ntinye providers.omniroute a na models.json ka ndị na-eweta gị na ntọala gị ndị ọzọ nọrọ na-adịghị.",
     "removeMapping": "Wepụ njikọ"
   },
   "modelCatalog": {

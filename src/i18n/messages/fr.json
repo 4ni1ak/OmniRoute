@@ -2962,6 +2962,14 @@
     "openClawManualConfiguration": "Griffe ouverte - Configuration manuelle",
     "clineManualConfiguration": "Configuration manuelle en ligne",
     "kiloManualConfiguration": "Configuration manuelle du code kilo",
+    "piManualConfiguration": "Pi - Configuration manuelle",
+    "piConfigInvalidTitle": "Pi models.json est illisible",
+    "piOmnirouteConfigured": "OmniRoute est configuré en tant que fournisseur personnalisé Pi",
+    "piModelHelp": "Pi ne découvre pas automatiquement les modèles pour les points de terminaison personnalisés — le modèle que vous choisissez est écrit explicitement dans models.json.",
+    "piManualConfigTitle": "Ou éditez ~/.pi/agent/models.json manuellement",
+    "piManualConfigSample": "'{\n  \"providers\": {\n    \"omniroute\": {\n      \"baseUrl\": \"http://127.0.0.1:20128/v1\",\n      \"api\": \"openai-completions\",\n      \"apiKey\": \"sk_omniroute\",\n      \"models\": [\n        { \"id\": \"auto/best-coding\", \"name\": \"OmniRoute best-coding\" }\n      ]\n    }\n  }\n}'",
+    "piManualConfigHint": "Ensuite, démarrez Pi et sélectionnez le fournisseur omniroute. Définissez PI_CODING_AGENT_DIR pour déplacer l'intégralité du répertoire de l'agent.",
+    "piUnownedNote": "Cette entrée a été ajoutée en dehors de OmniRoute (par exemple les points de terminaison personnalisés de pi-gui). La candidature l’adoptera ; La réinitialisation supprime uniquement les entrées écrites par OmniRoute.",
     "whenToUseLabel": "Quand utiliser",
     "openToolDocs": "Ouvrir la documentation de l'outil",
     "toolUseCases": {
@@ -3281,6 +3289,12 @@
     "cliproxyapiUpdate": "Mettre à jour",
     "cliproxyapiUpdateAvailable": "Mise à jour disponible : v{current} → v{latest}",
     "cliproxyapiVersion": "Version",
+    "piInstallTitle": "Installer l'agent de codage Pi",
+    "piInstallInstructions": "Installez le Pi CLI, puis revenez ici pour le connecter à OmniRoute.",
+    "piInstallCommand": "npm install -g --ignore-scripts @earendil-works/pi-coding-agent",
+    "piEndpoint": "OmniRoute URL",
+    "piEndpointHelp": "Utilisez le URL accessible depuis la machine exécutant Pi. Le point de terminaison /v1 compatible OpenAI est ajouté automatiquement.",
+    "piManualMergeHint": "Aperçu uniquement. Fusionnez cette entrée providers.omniroute dans models.json afin que vos autres fournisseurs et paramètres restent intacts.",
     "removeMapping": "Supprimer le mappage"
   },
   "modelCatalog": {

@@ -2962,6 +2962,14 @@
     "openClawManualConfiguration": "Open Claw — qo‘lda sozlash",
     "clineManualConfiguration": "Cline vositasini qo‘lda sozlash",
     "kiloManualConfiguration": "Kilo Code vositasini qo‘lda sozlash",
+    "piManualConfiguration": "Pi - qo'lda sozlash",
+    "piConfigInvalidTitle": "Pi models.json o‘qilmaydi",
+    "piOmnirouteConfigured": "OmniRoute Pi maxsus provayderi sifatida sozlangan",
+    "piModelHelp": "Pi maxsus so'nggi nuqtalar uchun modellarni avtomatik kashf etmaydi — siz tanlagan model models.json ga aniq yozilgan.",
+    "piManualConfigTitle": "Yoki ~/.pi/agent/models.json qo'lda tahrirlang",
+    "piManualConfigSample": "'{\n  \"providers\": {\n    \"omniroute\": {\n      \"baseUrl\": \"http://127.0.0.1:20128/v1\",\n      \"api\": \"openai-completions\",\n      \"apiKey\": \"sk_omniroute\",\n      \"models\": [\n        { \"id\": \"auto/best-coding\", \"name\": \"OmniRoute best-coding\" }\n      ]\n    }\n  }\n}'",
+    "piManualConfigHint": "Keyin Pi-ni ishga tushiring va omniroute provayderini tanlang. Butun agent katalogini ko'chirish uchun PI_CODING_AGENT_DIR o'rnating.",
+    "piUnownedNote": "Bu yozuv OmniRoute dan tashqarida qoʻshilgan (masalan, pi-gui Custom endpoints). Ariza berish uni qabul qiladi; Reset faqat OmniRoute yozgan yozuvlarni olib tashlaydi.",
     "whenToUseLabel": "Qachon foydalanish kerak",
     "openToolDocs": "Vosita hujjatlarini ochish",
     "toolUseCases": {
@@ -3281,6 +3289,12 @@
     "cliproxyapiUpdate": "Yangilash",
     "cliproxyapiUpdateAvailable": "Yangilanish mavjud: v{current} → v{latest}",
     "cliproxyapiVersion": "Versiya",
+    "piInstallTitle": "Pi kodlash agentini o'rnating",
+    "piInstallInstructions": "Pi CLI ni o'rnating, so'ngra OmniRoute ga ulash uchun bu yerga qayting.",
+    "piInstallCommand": "npm install -g --ignore-scripts @earendil-works/pi-coding-agent",
+    "piEndpoint": "OmniRoute URL",
+    "piEndpointHelp": "Pi bilan ishlaydigan mashinadan kirish mumkin bo'lgan URL dan foydalaning. OpenAI-mos keladigan /v1 so'nggi nuqtasi avtomatik ravishda qo'shiladi.",
+    "piManualMergeHint": "Faqat oldindan koʻrish. Boshqa provayderlaringiz va sozlamalaringiz saqlanib qolishi uchun ushbu providers.omniroute kirishini models.json ga birlashtiring.",
     "removeMapping": "Moslashtirishni olib tashlash"
   },
   "modelCatalog": {

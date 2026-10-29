@@ -2962,6 +2962,14 @@
     "openClawManualConfiguration": "פתח טופר - תצורה ידנית",
     "clineManualConfiguration": "תצורה ידנית של Cline",
     "kiloManualConfiguration": "תצורה ידנית של קילו קוד",
+    "piManualConfiguration": "Pi - תצורה ידנית",
+    "piConfigInvalidTitle": "Pi models.json אינו קריא",
+    "piOmnirouteConfigured": "OmniRoute מוגדר כספק מותאם אישית של Pi",
+    "piModelHelp": "Pi אינו מגלה אוטומטית מודלים עבור נקודות קצה מותאמות אישית — הדגם שאתה בוחר נכתב ב- models.json במפורש.",
+    "piManualConfigTitle": "או ערוך ~/.pi/agent/models.json באופן ידני",
+    "piManualConfigSample": "'{\n  \"providers\": {\n    \"omniroute\": {\n      \"baseUrl\": \"http://127.0.0.1:20128/v1\",\n      \"api\": \"openai-completions\",\n      \"apiKey\": \"sk_omniroute\",\n      \"models\": [\n        { \"id\": \"auto/best-coding\", \"name\": \"OmniRoute best-coding\" }\n      ]\n    }\n  }\n}'",
+    "piManualConfigHint": "לאחר מכן הפעל את Pi ובחר בספק ה-omniroute. הגדר PI_CODING_AGENT_DIR להעביר את כל ספריית הסוכן.",
+    "piUnownedNote": "רשומה זו נוספה מחוץ OmniRoute (למשל נקודות הקצה המותאמות אישית של pi-gui). הגשת בקשה תאמץ אותו; איפוס מסיר רק ערכים שכתבו OmniRoute.",
     "whenToUseLabel": "מתי להשתמש",
     "openToolDocs": "פתח את מסמכי הכלים",
     "toolUseCases": {
@@ -3281,6 +3289,12 @@
     "cliproxyapiUpdate": "עדכון",
     "cliproxyapiUpdateAvailable": "עדכון זמין: v{current} → v{latest}",
     "cliproxyapiVersion": "גרסה",
+    "piInstallTitle": "התקן Pi Coding Agent",
+    "piInstallInstructions": "התקן את ה-Pi CLI, ואז חזור לכאן כדי לחבר אותו ל- OmniRoute.",
+    "piInstallCommand": "npm install -g --ignore-scripts @earendil-works/pi-coding-agent",
+    "piEndpoint": "OmniRoute URL",
+    "piEndpointHelp": "השתמש ב- URL שניתן להגיע אליו מהמכונה שמפעילה את Pi. נקודת הקצה /v1 תואמת OpenAI מתווספת אוטומטית.",
+    "piManualMergeHint": "תצוגה מקדימה בלבד. מיזוג את הערך הזה של providers.omniroute לתוך models.json כך שהספקים וההגדרות האחרים שלך יישארו ללא פגע.",
     "removeMapping": "הסרת מיפוי"
   },
   "modelCatalog": {

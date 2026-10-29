@@ -2962,6 +2962,14 @@
     "openClawManualConfiguration": "Open Claw - Manuaalinen konfigurointi",
     "clineManualConfiguration": "Cline Manuaalinen konfigurointi",
     "kiloManualConfiguration": "Kilo Code Manuaalinen konfigurointi",
+    "piManualConfiguration": "Pi - Manuaalinen konfigurointi",
+    "piConfigInvalidTitle": "Pi models.json on lukukelvoton",
+    "piOmnirouteConfigured": "OmniRoute on määritetty mukautettuksi Pi-palveluntarjoajaksi",
+    "piModelHelp": "Pi ei löydä automaattisesti mukautettujen päätepisteiden malleja — valitsemasi malli on kirjoitettu models.json hen nimenomaisesti.",
+    "piManualConfigTitle": "Tai muokkaa ~/.pi/agent/models.json manuaalisesti",
+    "piManualConfigSample": "'{\n  \"providers\": {\n    \"omniroute\": {\n      \"baseUrl\": \"http://127.0.0.1:20128/v1\",\n      \"api\": \"openai-completions\",\n      \"apiKey\": \"sk_omniroute\",\n      \"models\": [\n        { \"id\": \"auto/best-coding\", \"name\": \"OmniRoute best-coding\" }\n      ]\n    }\n  }\n}'",
+    "piManualConfigHint": "Käynnistä sitten Pi ja valitse omniroute palveluntarjoaja. Aseta PI_CODING_AGENT_DIR siirtääksesi koko agenttihakemiston.",
+    "piUnownedNote": "Tämä merkintä lisättiin OmniRoute ulkopuolelle (esim. pi-guin mukautetut päätepisteet). Hakeminen hyväksyy sen; Reset poistaa vain OmniRoute kirjoittamat merkinnät.",
     "whenToUseLabel": "Milloin käyttää",
     "openToolDocs": "Avaa työkaludokumentit",
     "toolUseCases": {
@@ -3281,6 +3289,12 @@
     "cliproxyapiUpdate": "Päivitä",
     "cliproxyapiUpdateAvailable": "Päivitys saatavilla: v{current} → v{latest}",
     "cliproxyapiVersion": "Versio",
+    "piInstallTitle": "Asenna Pi-koodausagentti",
+    "piInstallInstructions": "Asenna Pi CLI ja palaa sitten tänne yhdistääksesi se OmniRoute.",
+    "piInstallCommand": "npm install -g --ignore-scripts @earendil-works/pi-coding-agent",
+    "piEndpoint": "OmniRoute URL",
+    "piEndpointHelp": "Käytä URL, joka on tavoitettavissa Pi:tä käyttävästä koneesta. OpenAI-yhteensopiva /v1-päätepiste lisätään automaattisesti.",
+    "piManualMergeHint": "Vain esikatselu. Yhdistä tämä providers.omniroute-merkintä models.json, jotta muut palveluntarjoajasi ja asetuksesi pysyvät ennallaan.",
     "removeMapping": "Poista määritys"
   },
   "modelCatalog": {

@@ -2962,6 +2962,14 @@
     "openClawManualConfiguration": "Open Claw - Usanidi wa Kujiwekea",
     "clineManualConfiguration": "Usanidi wa Kujiwekea wa Cline",
     "kiloManualConfiguration": "Usanidi wa Kujiwekea wa Kilo Code",
+    "piManualConfiguration": "Pi - Usanidi wa Mwongozo",
+    "piConfigInvalidTitle": "Pi models.json haisomeki",
+    "piOmnirouteConfigured": "OmniRoute imesanidiwa kama mtoaji maalum wa Pi",
+    "piModelHelp": "Pi haigundui kiotomatiki miundo ya vidokezo maalum — muundo unaochagua umeandikwa models.json kwa uwazi.",
+    "piManualConfigTitle": "Au hariri ~/.pi/agent/models.json kwa mikono",
+    "piManualConfigSample": "'{\n  \"providers\": {\n    \"omniroute\": {\n      \"baseUrl\": \"http://127.0.0.1:20128/v1\",\n      \"api\": \"openai-completions\",\n      \"apiKey\": \"sk_omniroute\",\n      \"models\": [\n        { \"id\": \"auto/best-coding\", \"name\": \"OmniRoute best-coding\" }\n      ]\n    }\n  }\n}'",
+    "piManualConfigHint": "Kisha anza Pi na uchague mtoaji omniroute. Weka PI_CODING_AGENT_DIR kusogeza saraka nzima ya wakala.",
+    "piUnownedNote": "Ingizo hili liliongezwa nje ya OmniRoute (km miisho maalum ya pi-gui). Kuomba kutaidhinisha; Weka upya huondoa tu maingizo yaliyoandikwa na OmniRoute.",
     "whenToUseLabel": "Wakati wa kutumia",
     "openToolDocs": "Fungua nyaraka za zana",
     "toolUseCases": {
@@ -3281,6 +3289,12 @@
     "cliproxyapiUpdate": "Sasisha",
     "cliproxyapiUpdateAvailable": "Sasisho linapatikana: v{current} → v{latest}",
     "cliproxyapiVersion": "Toleo",
+    "piInstallTitle": "Sakinisha Wakala wa Usimbaji wa Pi",
+    "piInstallInstructions": "Sakinisha Pi CLI, kisha urudi hapa ili kuiunganisha kwa OmniRoute.",
+    "piInstallCommand": "npm install -g --ignore-scripts @earendil-works/pi-coding-agent",
+    "piEndpoint": "OmniRoute URL",
+    "piEndpointHelp": "Tumia URL inayoweza kufikiwa kutoka kwa mashine inayoendesha Pi. Mwisho unaoendana na OpenAI /v1 huongezwa kiotomatiki.",
+    "piManualMergeHint": "Hakiki pekee. Unganisha ingizo hili la providers.omniroute kwenye models.json ili watoa huduma wako wengine na mipangilio ibaki sawa.",
     "removeMapping": "Ondoa uunganishaji"
   },
   "modelCatalog": {

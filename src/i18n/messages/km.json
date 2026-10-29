@@ -3039,6 +3039,14 @@
     "openClawManualConfiguration": "Open Claw - ការកំណត់រចនាសម្ព័ន្ធដោយដៃ",
     "clineManualConfiguration": "ការកំណត់រចនាសម្ព័ន្ធ Cline ដោយដៃ",
     "kiloManualConfiguration": "ការកំណត់រចនាសម្ព័ន្ធ Kilo Code ដោយដៃ",
+    "piManualConfiguration": "Pi - ការកំណត់រចនាសម្ព័ន្ធដោយដៃ",
+    "piConfigInvalidTitle": "Pi models.json មិនអាចអានបានទេ។",
+    "piOmnirouteConfigured": "OmniRoute ត្រូវបានកំណត់រចនាសម្ព័ន្ធជាអ្នកផ្តល់សេវាផ្ទាល់ខ្លួន Pi",
+    "piModelHelp": "Pi មិនស្វែងរកគំរូដោយស្វ័យប្រវត្តិសម្រាប់ចំណុចបញ្ចប់ផ្ទាល់ខ្លួន — គំរូដែលអ្នកជ្រើសរើសត្រូវបានសរសេរទៅក្នុង models.json យ៉ាងច្បាស់លាស់។",
+    "piManualConfigTitle": "ឬកែសម្រួល ~/.pi/agent/models.json ដោយដៃ",
+    "piManualConfigSample": "'{\n  \"providers\": {\n    \"omniroute\": {\n      \"baseUrl\": \"http://127.0.0.1:20128/v1\",\n      \"api\": \"openai-completions\",\n      \"apiKey\": \"sk_omniroute\",\n      \"models\": [\n        { \"id\": \"auto/best-coding\", \"name\": \"OmniRoute best-coding\" }\n      ]\n    }\n  }\n}'",
+    "piManualConfigHint": "បន្ទាប់មកចាប់ផ្តើម Pi ហើយជ្រើសរើសអ្នកផ្តល់សេវា omniroute ។ កំណត់ PI_CODING_AGENT_DIR ដើម្បីផ្លាស់ទីថតភ្នាក់ងារទាំងមូល។",
+    "piUnownedNote": "ធាតុនេះត្រូវបានបន្ថែមនៅខាងក្រៅ OmniRoute (ឧទាហរណ៍ ចំណុចបញ្ចប់ផ្ទាល់ខ្លួនរបស់ pi-gui) ។ ការដាក់ពាក្យនឹងទទួលយកវា; កំណត់ឡើងវិញបានតែលុបធាតុ OmniRoute បានសរសេរ។",
     "whenToUseLabel": "ពេលណាត្រូវប្រើ",
     "openToolDocs": "បើកឯកសារណែនាំរបស់ឧបករណ៍",
     "toolUseCases": {
@@ -3358,6 +3366,12 @@
     "cliproxyapiUpdate": "ធ្វើបច្ចុប្បន្នភាព",
     "cliproxyapiUpdateAvailable": "មានបច្ចុប្បន្នភាព៖ v{current} → v{latest}",
     "cliproxyapiVersion": "កំណែ",
+    "piInstallTitle": "ដំឡើង Pi Coding Agent",
+    "piInstallInstructions": "ដំឡើង Pi CLI បន្ទាប់មកត្រឡប់មកទីនេះដើម្បីភ្ជាប់វាទៅ OmniRoute។",
+    "piInstallCommand": "npm install -g --ignore-scripts @earendil-works/pi-coding-agent",
+    "piEndpoint": "OmniRoute URL",
+    "piEndpointHelp": "ប្រើ URL ដែលអាចទៅដល់បានពីម៉ាស៊ីនដែលកំពុងដំណើរការ Pi ។ ចំណុចបញ្ចប់ /v1 ដែលត្រូវគ្នានឹង OpenAI ត្រូវបានបន្ថែមដោយស្វ័យប្រវត្តិ។",
+    "piManualMergeHint": "មើលជាមុនតែប៉ុណ្ណោះ។ បញ្ចូលការបញ្ចូល providers.omniroute នេះទៅក្នុង models.json ដូច្នេះអ្នកផ្តល់សេវា និងការកំណត់ផ្សេងទៀតរបស់អ្នកនៅដដែល។",
     "removeMapping": "លុបការផ្គូផ្គង"
   },
   "modelCatalog": {

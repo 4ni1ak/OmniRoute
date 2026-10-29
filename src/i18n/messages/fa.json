@@ -2962,6 +2962,14 @@
     "openClawManualConfiguration": "Open Claw - پیکربندی دستی",
     "clineManualConfiguration": "پیکربندی دستی Cline",
     "kiloManualConfiguration": "پیکربندی دستی Kilo Code",
+    "piManualConfiguration": "Pi - پیکربندی دستی",
+    "piConfigInvalidTitle": "پی models.json ناخوانا است",
+    "piOmnirouteConfigured": "OmniRoute به عنوان یک ارائه دهنده سفارشی Pi پیکربندی شده است",
+    "piModelHelp": "Pi مدلها را برای نقاط پایانی سفارشی کشف نمیکند. — مدلی که انتخاب میکنید به صراحت در models.json نوشته شده است.",
+    "piManualConfigTitle": "یا ~/.pi/agent/models.json به صورت دستی ویرایش کنید",
+    "piManualConfigSample": "'{\n  \"providers\": {\n    \"omniroute\": {\n      \"baseUrl\": \"http://127.0.0.1:20128/v1\",\n      \"api\": \"openai-completions\",\n      \"apiKey\": \"sk_omniroute\",\n      \"models\": [\n        { \"id\": \"auto/best-coding\", \"name\": \"OmniRoute best-coding\" }\n      ]\n    }\n  }\n}'",
+    "piManualConfigHint": "سپس Pi را راه اندازی کنید و ارائه دهنده omniroute را انتخاب کنید. PI_CODING_AGENT_DIR برای جابجایی کل فهرست عامل تنظیم کنید.",
+    "piUnownedNote": "این ورودی خارج از OmniRoute اضافه شد (مثلاً نقاط پایانی سفارشی pi-gui). درخواست آن را اتخاذ می کند. بازنشانی فقط ورودی هایی را که OmniRoute نوشته است حذف می کند.",
     "whenToUseLabel": "زمان استفاده",
     "openToolDocs": "باز کردن مستندات ابزار",
     "toolUseCases": {
@@ -3281,6 +3289,12 @@
     "cliproxyapiUpdate": "به‌روزرسانی",
     "cliproxyapiUpdateAvailable": "به‌روزرسانی موجود است: v{current} → v{latest}",
     "cliproxyapiVersion": "نسخه",
+    "piInstallTitle": "Pi Coding Agent را نصب کنید",
+    "piInstallInstructions": "Pi CLI را نصب کنید، سپس به اینجا برگردید تا آن را به OmniRoute متصل کنید.",
+    "piInstallCommand": "npm install -g --ignore-scripts @earendil-works/pi-coding-agent",
+    "piEndpoint": "OmniRoute URL",
+    "piEndpointHelp": "از URL قابل دسترسی از دستگاهی که Pi را اجرا می کند استفاده کنید. نقطه پایانی /v1 سازگار با OpenAI به طور خودکار اضافه می شود.",
+    "piManualMergeHint": "فقط پیش نمایش این ورودی providers.omniroute را در models.json ادغام کنید تا سایر ارائه دهندگان و تنظیمات شما دست نخورده بمانند.",
     "removeMapping": "حذف نگاشت"
   },
   "modelCatalog": {

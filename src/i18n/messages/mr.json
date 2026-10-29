@@ -2962,6 +2962,14 @@
     "openClawManualConfiguration": "Open Claw - मॅन्युअल कॉन्फिगरेशन",
     "clineManualConfiguration": "Cline मॅन्युअल कॉन्फिगरेशन",
     "kiloManualConfiguration": "Kilo Code मॅन्युअल कॉन्फिगरेशन",
+    "piManualConfiguration": "Pi - मॅन्युअल कॉन्फिगरेशन",
+    "piConfigInvalidTitle": "Pi models.json वाचनीय नाही",
+    "piOmnirouteConfigured": "OmniRoute हे Pi सानुकूल प्रदाता म्हणून कॉन्फिगर केले आहे",
+    "piModelHelp": "Pi सानुकूल एंडपॉइंट्ससाठी मॉडेल स्वयं-शोधत नाही — तुम्ही निवडलेले मॉडेल models.json मध्ये स्पष्टपणे लिहिलेले आहे.",
+    "piManualConfigTitle": "किंवा ~/.pi/agent/models.json स्वहस्ते संपादित करा",
+    "piManualConfigSample": "'{\n  \"providers\": {\n    \"omniroute\": {\n      \"baseUrl\": \"http://127.0.0.1:20128/v1\",\n      \"api\": \"openai-completions\",\n      \"apiKey\": \"sk_omniroute\",\n      \"models\": [\n        { \"id\": \"auto/best-coding\", \"name\": \"OmniRoute best-coding\" }\n      ]\n    }\n  }\n}'",
+    "piManualConfigHint": "नंतर Pi सुरू करा आणि omniroute प्रदाता निवडा. संपूर्ण एजंट निर्देशिका हलविण्यासाठी PI_CODING_AGENT_DIR सेट करा.",
+    "piUnownedNote": "ही एंट्री OmniRoute बाहेर जोडली गेली (उदा. pi-gui चे कस्टम एंडपॉइंट). अर्ज केल्यास त्याचा अवलंब होईल; रीसेट केवळ OmniRoute लिहिलेल्या नोंदी काढून टाकते.",
     "whenToUseLabel": "केव्हा वापरावे",
     "openToolDocs": "टूलची कागदपत्रे उघडा",
     "toolUseCases": {
@@ -3281,6 +3289,12 @@
     "cliproxyapiUpdate": "अद्यतन करा",
     "cliproxyapiUpdateAvailable": "उपलब्ध अद्यतन: v{current} → v{latest}",
     "cliproxyapiVersion": "आवृत्ती",
+    "piInstallTitle": "पाई कोडिंग एजंट स्थापित करा",
+    "piInstallInstructions": "Pi CLI स्थापित करा, नंतर OmniRoute शी कनेक्ट करण्यासाठी येथे परत या.",
+    "piInstallCommand": "npm install -g --ignore-scripts @earendil-works/pi-coding-agent",
+    "piEndpoint": "OmniRoute URL",
+    "piEndpointHelp": "Pi चालणाऱ्या मशीनवरून पोहोचता येण्याजोगा URL वापरा. OpenAI-compatible /v1 एंडपॉइंट आपोआप जोडला जातो.",
+    "piManualMergeHint": "फक्त पूर्वावलोकन. ही providers.omniroute एंट्री models.json मध्ये विलीन करा जेणेकरून तुमचे इतर प्रदाते आणि सेटिंग्ज कायम राहतील.",
     "removeMapping": "मॅपिंग काढा"
   },
   "modelCatalog": {

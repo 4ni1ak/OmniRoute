@@ -2962,6 +2962,14 @@
     "openClawManualConfiguration": "Open Claw - دستی کنفیگریشن",
     "clineManualConfiguration": "Cline کی دستی کنفیگریشن",
     "kiloManualConfiguration": "Kilo Code کی دستی کنفیگریشن",
+    "piManualConfiguration": "Pi - دستی کنفیگریشن",
+    "piConfigInvalidTitle": "Pi models.json ناقابل مطالعہ ہے۔",
+    "piOmnirouteConfigured": "OmniRoute ایک Pi کسٹم فراہم کنندہ کے طور پر ترتیب دیا گیا ہے۔",
+    "piModelHelp": "Pi اپنی مرضی کے اختتامی پوائنٹس کے لیے ماڈلز کو خودکار طور پر دریافت نہیں کرتا ہے — آپ جو ماڈل منتخب کرتے ہیں وہ واضح طور پر models.json میں لکھا جاتا ہے۔",
+    "piManualConfigTitle": "یا ترمیم کریں ~/.pi/agent/models.json دستی طور پر",
+    "piManualConfigSample": "'{\n  \"providers\": {\n    \"omniroute\": {\n      \"baseUrl\": \"http://127.0.0.1:20128/v1\",\n      \"api\": \"openai-completions\",\n      \"apiKey\": \"sk_omniroute\",\n      \"models\": [\n        { \"id\": \"auto/best-coding\", \"name\": \"OmniRoute best-coding\" }\n      ]\n    }\n  }\n}'",
+    "piManualConfigHint": "پھر Pi شروع کریں اور omniroute فراہم کنندہ کو منتخب کریں۔ پوری ایجنٹ ڈائرکٹری کو منتقل کرنے کے لیے PI_CODING_AGENT_DIR سیٹ کریں۔",
+    "piUnownedNote": "یہ اندراج OmniRoute کے باہر شامل کیا گیا تھا (مثال کے طور پر pi-gui کے کسٹم اینڈ پوائنٹس)۔ اپلائی کرنا اسے اپنائے گا؛ ری سیٹ صرف اندراجات کو ہٹاتا ہے OmniRoute لکھا ہوا ہے۔",
     "whenToUseLabel": "کب استعمال کریں",
     "openToolDocs": "ٹول کی دستاویزات کھولیں",
     "toolUseCases": {
@@ -3281,6 +3289,12 @@
     "cliproxyapiUpdate": "اپ ڈیٹ",
     "cliproxyapiUpdateAvailable": "اپ ڈیٹ دستیاب ہے: v{current} → v{latest}",
     "cliproxyapiVersion": "ورژن",
+    "piInstallTitle": "پی آئی کوڈنگ ایجنٹ انسٹال کریں۔",
+    "piInstallInstructions": "Pi CLI انسٹال کریں، پھر اسے OmniRoute سے منسلک کرنے کے لیے یہاں واپس آئیں۔",
+    "piInstallCommand": "npm install -g --ignore-scripts @earendil-works/pi-coding-agent",
+    "piEndpoint": "OmniRoute URL",
+    "piEndpointHelp": "پائی چلانے والی مشین سے قابل رسائی URL استعمال کریں۔ OpenAI-compatible /v1 اینڈ پوائنٹ خود بخود شامل ہو جاتا ہے۔",
+    "piManualMergeHint": "صرف پیش نظارہ۔ اس providers.omniroute انٹری کو models.json میں ضم کریں تاکہ آپ کے دوسرے فراہم کنندگان اور ترتیبات برقرار رہیں۔",
     "removeMapping": "میپنگ ہٹائیں"
   },
   "modelCatalog": {

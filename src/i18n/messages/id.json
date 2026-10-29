@@ -2962,6 +2962,14 @@
     "openClawManualConfiguration": "Buka Claw - Konfigurasi Manual",
     "clineManualConfiguration": "Konfigurasi Manual Cline",
     "kiloManualConfiguration": "Konfigurasi Manual Kode Kilo",
+    "piManualConfiguration": "Pi - Konfigurasi Manual",
+    "piConfigInvalidTitle": "Pi models.json tidak dapat dibaca",
+    "piOmnirouteConfigured": "OmniRoute dikonfigurasi sebagai penyedia khusus Pi",
+    "piModelHelp": "Pi tidak menemukan model secara otomatis untuk titik akhir khusus — model yang Anda pilih ditulis ke dalam models.json secara eksplisit.",
+    "piManualConfigTitle": "Atau edit ~/.pi/agent/models.json secara manual",
+    "piManualConfigSample": "'{\n  \"providers\": {\n    \"omniroute\": {\n      \"baseUrl\": \"http://127.0.0.1:20128/v1\",\n      \"api\": \"openai-completions\",\n      \"apiKey\": \"sk_omniroute\",\n      \"models\": [\n        { \"id\": \"auto/best-coding\", \"name\": \"OmniRoute best-coding\" }\n      ]\n    }\n  }\n}'",
+    "piManualConfigHint": "Kemudian mulai Pi dan pilih penyedia omniroute. Atur PI_CODING_AGENT_DIR untuk memindahkan seluruh direktori agen.",
+    "piUnownedNote": "Entri ini ditambahkan di luar OmniRoute (misalnya titik akhir Kustom pi-gui). Menerapkan akan mengadopsinya; Reset hanya menghapus entri yang ditulis OmniRoute.",
     "whenToUseLabel": "Kapan harus digunakan",
     "openToolDocs": "Buka dokumen alat",
     "toolUseCases": {
@@ -3281,6 +3289,12 @@
     "cliproxyapiUpdate": "Perbarui",
     "cliproxyapiUpdateAvailable": "Pembaruan tersedia: v{current} → v{latest}",
     "cliproxyapiVersion": "Versi",
+    "piInstallTitle": "Instal Agen Pengkodean Pi",
+    "piInstallInstructions": "Instal Pi CLI, lalu kembali ke sini untuk menghubungkannya ke OmniRoute.",
+    "piInstallCommand": "npm install -g --ignore-scripts @earendil-works/pi-coding-agent",
+    "piEndpoint": "OmniRoute URL",
+    "piEndpointHelp": "Gunakan URL yang dapat dijangkau dari mesin yang menjalankan Pi. Titik akhir /v1 yang kompatibel dengan OpenAI ditambahkan secara otomatis.",
+    "piManualMergeHint": "Hanya pratinjau. Gabungkan entri providers.omniroute ini ke models.json sehingga penyedia dan pengaturan Anda yang lain tetap utuh.",
     "removeMapping": "Hapus pemetaan"
   },
   "modelCatalog": {

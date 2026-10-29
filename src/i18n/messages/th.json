@@ -2962,6 +2962,14 @@
     "openClawManualConfiguration": "Open Claw - การกำหนดค่าด้วยตนเอง",
     "clineManualConfiguration": "การกำหนดค่าด้วยตนเองของไคลน์",
     "kiloManualConfiguration": "การกำหนดค่าด้วยตนเองของรหัสกิโล",
+    "piManualConfiguration": "Pi - การกำหนดค่าด้วยตนเอง",
+    "piConfigInvalidTitle": "Pi models.json ไม่สามารถอ่านได้",
+    "piOmnirouteConfigured": "OmniRoute ได้รับการกำหนดค่าเป็นผู้ให้บริการแบบกำหนดเองของ Pi",
+    "piModelHelp": "Pi จะไม่ค้นหาโมเดลโดยอัตโนมัติสำหรับจุดสิ้นสุดที่กำหนดเอง — โมเดลที่คุณเลือกจะถูกเขียนลงใน models.json อย่างชัดเจน",
+    "piManualConfigTitle": "หรือแก้ไข ~/.pi/agent/models.json ด้วยตนเอง",
+    "piManualConfigSample": "'{\n  \"providers\": {\n    \"omniroute\": {\n      \"baseUrl\": \"http://127.0.0.1:20128/v1\",\n      \"api\": \"openai-completions\",\n      \"apiKey\": \"sk_omniroute\",\n      \"models\": [\n        { \"id\": \"auto/best-coding\", \"name\": \"OmniRoute best-coding\" }\n      ]\n    }\n  }\n}'",
+    "piManualConfigHint": "จากนั้นเริ่ม Pi และเลือกผู้ให้บริการ omniroute ตั้งค่า PI_CODING_AGENT_DIR เพื่อย้ายไดเร็กทอรีตัวแทนทั้งหมด",
+    "piUnownedNote": "รายการนี้ถูกเพิ่มภายนอก OmniRoute (เช่น จุดสิ้นสุดที่กำหนดเองของ pi-gui) การสมัครจะนำมาใช้ รีเซ็ตจะลบเฉพาะรายการ OmniRoute ที่เขียน",
     "whenToUseLabel": "เมื่อจะใช้",
     "openToolDocs": "เปิดเอกสารเครื่องมือ",
     "toolUseCases": {
@@ -3281,6 +3289,12 @@
     "cliproxyapiUpdate": "อัปเดต",
     "cliproxyapiUpdateAvailable": "มีการอัปเดต: v{current} → v{latest}",
     "cliproxyapiVersion": "เวอร์ชัน",
+    "piInstallTitle": "ติดตั้ง Pi Coding Agent",
+    "piInstallInstructions": "ติดตั้ง Pi CLI จากนั้นกลับมาที่นี่เพื่อเชื่อมต่อกับ OmniRoute",
+    "piInstallCommand": "npm install -g --ignore-scripts @earendil-works/pi-coding-agent",
+    "piEndpoint": "OmniRoute URL",
+    "piEndpointHelp": "ใช้ URL ที่สามารถเข้าถึงได้จากเครื่องที่ใช้ Pi ตำแหน่งข้อมูล /v1 ที่เข้ากันได้กับ OpenAI จะถูกเพิ่มโดยอัตโนมัติ",
+    "piManualMergeHint": "ดูตัวอย่างเท่านั้น รวมรายการ providers.omniroute นี้เข้ากับ models.json เพื่อให้ผู้ให้บริการและการตั้งค่าอื่นๆ ของคุณไม่เสียหาย",
     "removeMapping": "นำการแมปออก"
   },
   "modelCatalog": {

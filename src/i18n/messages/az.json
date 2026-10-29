@@ -3039,6 +3039,14 @@
     "openClawManualConfiguration": "Open Claw — Əl ilə konfiqurasiya",
     "clineManualConfiguration": "Cline üçün əl ilə konfiqurasiya",
     "kiloManualConfiguration": "Kilo Code üçün əl ilə konfiqurasiya",
+    "piManualConfiguration": "Pi - Manual Konfiqurasiya",
+    "piConfigInvalidTitle": "Pi models.json oxunmur",
+    "piOmnirouteConfigured": "OmniRoute Pi xüsusi provayderi kimi konfiqurasiya edilib",
+    "piModelHelp": "Pi fərdi son nöqtələr üçün modelləri avtomatik kəşf etmir — seçdiyiniz model models.json açıq şəkildə yazılır.",
+    "piManualConfigTitle": "Və ya redaktə edin ~/.pi/agent/models.json əl ilə",
+    "piManualConfigSample": "'{\n  \"providers\": {\n    \"omniroute\": {\n      \"baseUrl\": \"http://127.0.0.1:20128/v1\",\n      \"api\": \"openai-completions\",\n      \"apiKey\": \"sk_omniroute\",\n      \"models\": [\n        { \"id\": \"auto/best-coding\", \"name\": \"OmniRoute best-coding\" }\n      ]\n    }\n  }\n}'",
+    "piManualConfigHint": "Sonra Pi-ni işə salın və omniroute provayderini seçin. Bütün agent kataloqunu köçürmək üçün PI_CODING_AGENT_DIR seçin.",
+    "piUnownedNote": "Bu giriş OmniRoute xaricində əlavə edilmişdir (məsələn, pi-gui-nin Xüsusi son nöqtələri). Müraciət edən onu qəbul edəcək; Sıfırlama yalnız OmniRoute yazdığı qeydləri silir.",
     "whenToUseLabel": "Nə vaxt istifadə edilməlidir",
     "openToolDocs": "Alətin sənədlərini aç",
     "toolUseCases": {
@@ -3358,6 +3366,12 @@
     "cliproxyapiUpdate": "Yenilə",
     "cliproxyapiUpdateAvailable": "Yeniləmə mövcuddur: v{current} → v{latest}",
     "cliproxyapiVersion": "Versiya",
+    "piInstallTitle": "Pi Kodlama Agentini quraşdırın",
+    "piInstallInstructions": "Pi CLI nı quraşdırın, sonra OmniRoute ə qoşulmaq üçün bura qayıdın.",
+    "piInstallCommand": "npm install -g --ignore-scripts @earendil-works/pi-coding-agent",
+    "piEndpoint": "OmniRoute URL",
+    "piEndpointHelp": "Pi ilə işləyən maşından əldə edilə bilən URL istifadə edin. OpenAI uyğun /v1 son nöqtəsi avtomatik olaraq əlavə edilir.",
+    "piManualMergeHint": "Yalnız önizləmə. Bu providers.omniroute girişini models.json -ya birləşdirin ki, digər provayderlər və parametrlər toxunulmaz olsun.",
     "removeMapping": "Uyğunlaşdırmanı sil"
   },
   "modelCatalog": {

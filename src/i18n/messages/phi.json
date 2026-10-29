@@ -2962,6 +2962,14 @@
     "openClawManualConfiguration": "Open Claw - Manu-manong Configuration",
     "clineManualConfiguration": "Manu-manong Configuration ng Cline",
     "kiloManualConfiguration": "Manu-manong Configuration ng Kilo Code",
+    "piManualConfiguration": "Pi - Manu-manong Configuration",
+    "piConfigInvalidTitle": "Pi models.json ay hindi nababasa",
+    "piOmnirouteConfigured": "OmniRoute ay na-configure bilang isang custom na provider ng Pi",
+    "piModelHelp": "Hindi awtomatikong natutuklasan ng Pi ang mga modelo para sa mga custom na endpoint — ang modelong pipiliin mo ay tahasang nakasulat sa models.json.",
+    "piManualConfigTitle": "O manu-manong i-edit ~/.pi/agent/models.json",
+    "piManualConfigSample": "'{\n  \"providers\": {\n    \"omniroute\": {\n      \"baseUrl\": \"http://127.0.0.1:20128/v1\",\n      \"api\": \"openai-completions\",\n      \"apiKey\": \"sk_omniroute\",\n      \"models\": [\n        { \"id\": \"auto/best-coding\", \"name\": \"OmniRoute best-coding\" }\n      ]\n    }\n  }\n}'",
+    "piManualConfigHint": "Pagkatapos ay simulan ang Pi at piliin ang omniroute provider. Itakda ang PI_CODING_AGENT_DIR upang ilipat ang buong direktoryo ng ahente.",
+    "piUnownedNote": "Ang entry na ito ay idinagdag sa labas ng OmniRoute (hal. Pi-gui's Custom endpoints). Ang pag-aaplay ay magpapatibay nito; Ang pag-reset ay nag-aalis lamang ng mga entry na isinulat OmniRoute.",
     "whenToUseLabel": "Kailan gagamitin",
     "openToolDocs": "Buksan ang tool docs",
     "toolUseCases": {
@@ -3281,6 +3289,12 @@
     "cliproxyapiUpdate": "I-update",
     "cliproxyapiUpdateAvailable": "Available na Update: v{current} → v{latest}",
     "cliproxyapiVersion": "Bersyon",
+    "piInstallTitle": "I-install ang Pi Coding Agent",
+    "piInstallInstructions": "I-install ang Pi CLI, pagkatapos ay bumalik dito para ikonekta ito sa OmniRoute.",
+    "piInstallCommand": "npm install -g --ignore-scripts @earendil-works/pi-coding-agent",
+    "piEndpoint": "OmniRoute URL",
+    "piEndpointHelp": "Gamitin ang URL na naaabot mula sa machine na nagpapatakbo ng Pi. Awtomatikong idinaragdag ang OpenAI-compatible /v1 endpoint.",
+    "piManualMergeHint": "Preview lang. Pagsamahin ang providers.omniroute entry na ito sa models.json para manatiling buo ang iyong iba pang provider at setting.",
     "removeMapping": "Alisin ang mapping"
   },
   "modelCatalog": {

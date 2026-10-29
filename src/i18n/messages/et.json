@@ -2962,6 +2962,14 @@
     "openClawManualConfiguration": "Open Claw – käsitsi seadistamine",
     "clineManualConfiguration": "Cline'i käsitsi seadistamine",
     "kiloManualConfiguration": "Kilo Code'i käsitsi seadistamine",
+    "piManualConfiguration": "Pi – käsitsi seadistamine",
+    "piConfigInvalidTitle": "Pi models.json on loetamatu",
+    "piOmnirouteConfigured": "OmniRoute on konfigureeritud Pi kohandatud pakkujana",
+    "piModelHelp": "Pi ei tuvasta kohandatud lõpp-punktide mudeleid automaatselt. — teie valitud mudel kirjutatakse models.json -sse selgesõnaliselt.",
+    "piManualConfigTitle": "Või muutke ~/.pi/agent/models.json käsitsi",
+    "piManualConfigSample": "'{\n  \"providers\": {\n    \"omniroute\": {\n      \"baseUrl\": \"http://127.0.0.1:20128/v1\",\n      \"api\": \"openai-completions\",\n      \"apiKey\": \"sk_omniroute\",\n      \"models\": [\n        { \"id\": \"auto/best-coding\", \"name\": \"OmniRoute best-coding\" }\n      ]\n    }\n  }\n}'",
+    "piManualConfigHint": "Seejärel käivitage Pi ja valige omniroute'i pakkuja. Seadistage PI_CODING_AGENT_DIR kogu agendikataloogi teisaldamiseks.",
+    "piUnownedNote": "See kirje lisati väljaspool OmniRoute (nt pi-gui kohandatud lõpp-punktid). Taotlemine võtab selle vastu; Reset eemaldab ainult OmniRoute kirjutatud kirjed.",
     "whenToUseLabel": "Millal kasutada",
     "openToolDocs": "Ava tööriista dokumentatsioon",
     "toolUseCases": {
@@ -3281,6 +3289,12 @@
     "cliproxyapiUpdate": "Värskenda",
     "cliproxyapiUpdateAvailable": "Saadaval on värskendus: v{current} → v{latest}",
     "cliproxyapiVersion": "Versioon",
+    "piInstallTitle": "Installige Pi kodeerimisagent",
+    "piInstallInstructions": "Installige Pi CLI, seejärel naaske siia, et ühendada see OmniRoute.",
+    "piInstallCommand": "npm install -g --ignore-scripts @earendil-works/pi-coding-agent",
+    "piEndpoint": "OmniRoute URL",
+    "piEndpointHelp": "Kasutage URL mis on kättesaadavad masinast, kus töötab Pi. OpenAI-ga ühilduv /v1 lõpp-punkt lisatakse automaatselt.",
+    "piManualMergeHint": "Ainult eelvaade. Ühendage see providers.omniroute kirje models.json -ga, nii et teie teised pakkujad ja seaded jäävad puutumata.",
     "removeMapping": "Eemalda vastendus"
   },
   "modelCatalog": {

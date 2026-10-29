@@ -2962,6 +2962,14 @@
     "openClawManualConfiguration": "Open Claw - మాన్యువల్ కాన్ఫిగరేషన్",
     "clineManualConfiguration": "Cline మాన్యువల్ కాన్ఫిగరేషన్",
     "kiloManualConfiguration": "Kilo Code మాన్యువల్ కాన్ఫిగరేషన్",
+    "piManualConfiguration": "పై - మాన్యువల్ కాన్ఫిగరేషన్",
+    "piConfigInvalidTitle": "Pi models.json చదవలేనిది",
+    "piOmnirouteConfigured": "OmniRoute పై కస్టమ్ ప్రొవైడర్గా కాన్ఫిగర్ చేయబడింది",
+    "piModelHelp": "కస్టమ్ ఎండ్పాయింట్ల కోసం — మోడల్లను పై ఆటో-డిస్కవర్ చేయదు, మీరు ఎంచుకున్న మోడల్ models.json లో స్పష్టంగా వ్రాయబడింది.",
+    "piManualConfigTitle": "లేదా ~/.pi/agent/models.json మాన్యువల్గా సవరించండి",
+    "piManualConfigSample": "'{\n  \"providers\": {\n    \"omniroute\": {\n      \"baseUrl\": \"http://127.0.0.1:20128/v1\",\n      \"api\": \"openai-completions\",\n      \"apiKey\": \"sk_omniroute\",\n      \"models\": [\n        { \"id\": \"auto/best-coding\", \"name\": \"OmniRoute best-coding\" }\n      ]\n    }\n  }\n}'",
+    "piManualConfigHint": "ఆపై Piని ప్రారంభించి, omniroute ప్రొవైడర్ని ఎంచుకోండి. మొత్తం ఏజెంట్ డైరెక్టరీని తరలించడానికి PI_CODING_AGENT_DIR సెట్ చేయండి.",
+    "piUnownedNote": "ఈ ఎంట్రీ OmniRoute వెలుపల జోడించబడింది (ఉదా. pi-gui యొక్క అనుకూల ముగింపు పాయింట్లు). దరఖాస్తు అది స్వీకరించబడుతుంది; రీసెట్ OmniRoute వ్రాసిన ఎంట్రీలను మాత్రమే తొలగిస్తుంది.",
     "whenToUseLabel": "ఎప్పుడు ఉపయోగించాలి",
     "openToolDocs": "టూల్ డాక్యుమెంటేషన్ను తెరవండి",
     "toolUseCases": {
@@ -3281,6 +3289,12 @@
     "cliproxyapiUpdate": "అప్‌డేట్",
     "cliproxyapiUpdateAvailable": "అప్‌డేట్ అందుబాటులో ఉంది: v{current} → v{latest}",
     "cliproxyapiVersion": "సంవత్సరం",
+    "piInstallTitle": "పై కోడింగ్ ఏజెంట్ను ఇన్స్టాల్ చేయండి",
+    "piInstallInstructions": "Pi CLI ని ఇన్స్టాల్ చేసి, దానిని OmniRoute కి కనెక్ట్ చేయడానికి ఇక్కడకు తిరిగి రండి.",
+    "piInstallCommand": "npm install -g --ignore-scripts @earendil-works/pi-coding-agent",
+    "piEndpoint": "OmniRoute URL",
+    "piEndpointHelp": "Pi నడుస్తున్న మెషిన్ నుండి URL రీచ్ని ఉపయోగించండి. OpenAI-అనుకూలమైన /v1 ఎండ్పాయింట్ స్వయంచాలకంగా జోడించబడుతుంది.",
+    "piManualMergeHint": "ప్రివ్యూ మాత్రమే. ఈ providers.omniroute ఎంట్రీని models.json లో విలీనం చేయండి, తద్వారా మీ ఇతర ప్రొవైడర్లు మరియు సెట్టింగ్లు అలాగే ఉంటాయి.",
     "removeMapping": "మ్యాపింగ్ను తీసివేయండి"
   },
   "modelCatalog": {

@@ -2962,6 +2962,14 @@
     "openClawManualConfiguration": "Open Claw - konfiguracja ręczna",
     "clineManualConfiguration": "Cline - konfiguracja ręczna",
     "kiloManualConfiguration": "Kilo Code - konfiguracja ręczna",
+    "piManualConfiguration": "Pi – konfiguracja ręczna",
+    "piConfigInvalidTitle": "Pi models.json jest nieczytelna",
+    "piOmnirouteConfigured": "OmniRoute jest skonfigurowana jako niestandardowy dostawca Pi",
+    "piModelHelp": "Pi nie wykrywa automatycznie modeli dla niestandardowych punktów końcowych. — wybrany model jest jawnie zapisywany w models.json.",
+    "piManualConfigTitle": "Lub edytuj ~/.pi/agent/models.json ręcznie",
+    "piManualConfigSample": "'{\n  \"providers\": {\n    \"omniroute\": {\n      \"baseUrl\": \"http://127.0.0.1:20128/v1\",\n      \"api\": \"openai-completions\",\n      \"apiKey\": \"sk_omniroute\",\n      \"models\": [\n        { \"id\": \"auto/best-coding\", \"name\": \"OmniRoute best-coding\" }\n      ]\n    }\n  }\n}'",
+    "piManualConfigHint": "Następnie uruchom Pi i wybierz dostawcę omniroute. Ustaw PI_CODING_AGENT_DIR, aby przenieść cały katalog agenta.",
+    "piUnownedNote": "Ten wpis został dodany poza OmniRoute (np. niestandardowe punkty końcowe pi-gui). Złożenie wniosku zaadoptuje to; Resetuj usuwa tylko wpisy napisane OmniRoute.",
     "whenToUseLabel": "Kiedy używać",
     "openToolDocs": "Otwórz dokumentację narzędzia",
     "toolUseCases": {
@@ -3281,6 +3289,12 @@
     "cliproxyapiUpdate": "Aktualizuj",
     "cliproxyapiUpdateAvailable": "Dostępna aktualizacja: v{current} → v{latest}",
     "cliproxyapiVersion": "Wersja",
+    "piInstallTitle": "Zainstaluj agenta kodującego Pi",
+    "piInstallInstructions": "Zainstaluj Pi CLI, a następnie wróć tutaj, aby podłączyć go do OmniRoute.",
+    "piInstallCommand": "npm install -g --ignore-scripts @earendil-works/pi-coding-agent",
+    "piEndpoint": "OmniRoute URL",
+    "piEndpointHelp": "Użyj URL dostępnego z komputera z uruchomionym Pi. Punkt końcowy /v1 zgodny z OpenAI jest dodawany automatycznie.",
+    "piManualMergeHint": "Tylko podgląd. Połącz ten wpis providers.omniroute z models.json, aby inni dostawcy i ustawienia pozostały nienaruszone.",
     "removeMapping": "Usuń mapowanie"
   },
   "modelCatalog": {

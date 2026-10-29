@@ -2962,6 +2962,14 @@
     "openClawManualConfiguration": "Open Claw - म्यानुअल कन्फिगरेसन",
     "clineManualConfiguration": "Cline म्यानुअल कन्फिगरेसन",
     "kiloManualConfiguration": "Kilo Code म्यानुअल कन्फिगरेसन",
+    "piManualConfiguration": "Pi - म्यानुअल कन्फिगरेसन",
+    "piConfigInvalidTitle": "Pi models.json अपठनीय छ",
+    "piOmnirouteConfigured": "OmniRoute Pi अनुकूलन प्रदायकको रूपमा कन्फिगर गरिएको छ",
+    "piModelHelp": "Pi ले आफू अनुकूल अन्तिम बिन्दुहरूका लागि मोडेलहरू स्वत: पत्ता लगाउँदैन — तपाईंले छनौट गर्नुभएको मोडेल models.json मा स्पष्ट रूपमा लेखिएको छ।",
+    "piManualConfigTitle": "वा ~/.pi/agent/models.json म्यानुअल रूपमा सम्पादन गर्नुहोस्",
+    "piManualConfigSample": "'{\n  \"providers\": {\n    \"omniroute\": {\n      \"baseUrl\": \"http://127.0.0.1:20128/v1\",\n      \"api\": \"openai-completions\",\n      \"apiKey\": \"sk_omniroute\",\n      \"models\": [\n        { \"id\": \"auto/best-coding\", \"name\": \"OmniRoute best-coding\" }\n      ]\n    }\n  }\n}'",
+    "piManualConfigHint": "त्यसपछि Pi सुरु गर्नुहोस् र omniroute प्रदायक चयन गर्नुहोस्। सम्पूर्ण एजेन्ट डाइरेक्टरी सार्नको लागि PI_CODING_AGENT_DIR सेट गर्नुहोस्।",
+    "piUnownedNote": "यो प्रविष्टि OmniRoute बाहिर थपिएको थियो (जस्तै pi-gui को अनुकूलन अन्त बिन्दुहरू)। आवेदनले यसलाई अपनाउनेछ; रिसेट मात्र OmniRoute लेखिएको प्रविष्टिहरू हटाउँछ।",
     "whenToUseLabel": "कहिले प्रयोग गर्ने",
     "openToolDocs": "उपकरणका कागजातहरू खोल्नुहोस्",
     "toolUseCases": {
@@ -3281,6 +3289,12 @@
     "cliproxyapiUpdate": "अपडेट गर्नुहोस्",
     "cliproxyapiUpdateAvailable": "अपडेट उपलब्ध छ: v{current} → v{latest}",
     "cliproxyapiVersion": "संस्करण",
+    "piInstallTitle": "Pi कोडिङ एजेन्ट स्थापना गर्नुहोस्",
+    "piInstallInstructions": "Pi CLI स्थापना गर्नुहोस्, त्यसपछि OmniRoute मा जडान गर्न यहाँ फर्कनुहोस्।",
+    "piInstallCommand": "npm install -g --ignore-scripts @earendil-works/pi-coding-agent",
+    "piEndpoint": "OmniRoute URL",
+    "piEndpointHelp": "Pi चलिरहेको मेसिनबाट पहुँचयोग्य URL प्रयोग गर्नुहोस्। OpenAI-compatible /v1 अन्त्य बिन्दु स्वतः थपिएको छ।",
+    "piManualMergeHint": "पूर्वावलोकन मात्र। यो providers.omniroute प्रविष्टिलाई models.json मा मर्ज गर्नुहोस् ताकि तपाईंका अन्य प्रदायकहरू र सेटिङहरू यथावत रहोस्।",
     "removeMapping": "म्यापिङ हटाउनुहोस्"
   },
   "modelCatalog": {

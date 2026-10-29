@@ -3039,6 +3039,14 @@
     "openClawManualConfiguration": "Open Claw - Ръчна конфигурация",
     "clineManualConfiguration": "Ръчна конфигурация на Cline",
     "kiloManualConfiguration": "Ръчна конфигурация на Kilo Code",
+    "piManualConfiguration": "Pi - Ръчна конфигурация",
+    "piConfigInvalidTitle": "Pi models.json не се чете",
+    "piOmnirouteConfigured": "OmniRoute е конфигуриран като потребителски доставчик на Pi",
+    "piModelHelp": "Pi не открива автоматично модели за персонализирани крайни точки — избраният от вас модел се записва изрично в models.json.",
+    "piManualConfigTitle": "Или редактирайте ~/.pi/agent/models.json ръчно",
+    "piManualConfigSample": "'{\n  \"providers\": {\n    \"omniroute\": {\n      \"baseUrl\": \"http://127.0.0.1:20128/v1\",\n      \"api\": \"openai-completions\",\n      \"apiKey\": \"sk_omniroute\",\n      \"models\": [\n        { \"id\": \"auto/best-coding\", \"name\": \"OmniRoute best-coding\" }\n      ]\n    }\n  }\n}'",
+    "piManualConfigHint": "След това стартирайте Pi и изберете доставчика на omniroute. Задайте PI_CODING_AGENT_DIR да премести цялата директория на агента.",
+    "piUnownedNote": "Този запис беше добавен извън OmniRoute (напр. потребителски крайни точки на pi-gui). Кандидатстването ще го приеме; Нулирането премахва само записи, написани от OmniRoute.",
     "whenToUseLabel": "Кога да използвате",
     "openToolDocs": "Отворете документите на инструмента",
     "toolUseCases": {
@@ -3358,6 +3366,12 @@
     "cliproxyapiUpdate": "Актуализиране",
     "cliproxyapiUpdateAvailable": "Налична актуализация: v{current} → v{latest}",
     "cliproxyapiVersion": "Версия",
+    "piInstallTitle": "Инсталирайте Pi Coding Agent",
+    "piInstallInstructions": "Инсталирайте Pi CLI, след което се върнете тук, за да го свържете към OmniRoute.",
+    "piInstallCommand": "npm install -g --ignore-scripts @earendil-works/pi-coding-agent",
+    "piEndpoint": "OmniRoute URL",
+    "piEndpointHelp": "Използвайте URL, достъпен от машината, работеща с Pi. Съвместимата с OpenAI крайна точка /v1 се добавя автоматично.",
+    "piManualMergeHint": "Само преглед. Обединете този запис providers.omniroute в models.json така че другите ви доставчици и настройки да останат непокътнати.",
     "removeMapping": "Премахване на съпоставянето"
   },
   "modelCatalog": {

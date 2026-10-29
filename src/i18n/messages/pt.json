@@ -3039,6 +3039,14 @@
     "openClawManualConfiguration": "Garra Aberta - Configuração Manual",
     "clineManualConfiguration": "Configuração Manual do Cline",
     "kiloManualConfiguration": "Configuração Manual do Código Kilo",
+    "piManualConfiguration": "Pi - Configuração Manual",
+    "piConfigInvalidTitle": "Pi models.json é ilegível",
+    "piOmnirouteConfigured": "OmniRoute está configurado como um fornecedor personalizado Pi",
+    "piModelHelp": "O Pi não descobre automaticamente modelos para endpoints personalizados — o modelo escolhido é gravado explicitamente em models.json.",
+    "piManualConfigTitle": "Ou edite ~/.pi/agent/models.json manualmente",
+    "piManualConfigSample": "'{\n  \"providers\": {\n    \"omniroute\": {\n      \"baseUrl\": \"http://127.0.0.1:20128/v1\",\n      \"api\": \"openai-completions\",\n      \"apiKey\": \"sk_omniroute\",\n      \"models\": [\n        { \"id\": \"auto/best-coding\", \"name\": \"OmniRoute best-coding\" }\n      ]\n    }\n  }\n}'",
+    "piManualConfigHint": "Em seguida, inicie o Pi e selecione o fornecedor omniroute. Configure PI_CODING_AGENT_DIR para mover todo o diretório do agente.",
+    "piUnownedNote": "Esta entrada foi adicionada fora do OmniRoute (por exemplo, endpoints personalizados do pi-gui). A inscrição irá adotá-lo; A reposição remove apenas as entradas OmniRoute escreveu.",
     "whenToUseLabel": "Quando usar",
     "openToolDocs": "Abrir documentos de ferramentas",
     "toolUseCases": {
@@ -3358,6 +3366,12 @@
     "cliproxyapiUpdate": "Atualizar",
     "cliproxyapiUpdateAvailable": "Atualização disponível: v{current} → v{latest}",
     "cliproxyapiVersion": "Versão",
+    "piInstallTitle": "Instale o agente de codificação Pi",
+    "piInstallInstructions": "Instale o Pi CLI e volte aqui para o ligar ao OmniRoute.",
+    "piInstallCommand": "npm install -g --ignore-scripts @earendil-works/pi-coding-agent",
+    "piEndpoint": "OmniRoute URL",
+    "piEndpointHelp": "Utilize o URL acessível na máquina que executa o Pi. O endpoint /v1 compatível com OpenAI é adicionado automaticamente.",
+    "piManualMergeHint": "Apenas visualização. Mescle esta entrada providers.omniroute no models.json para que os seus outros providers e definições permaneçam intactos.",
     "removeMapping": "Remover mapeamento"
   },
   "modelCatalog": {

@@ -2962,6 +2962,14 @@
     "openClawManualConfiguration": "Open Claw — ձեռքով կազմաձևում",
     "clineManualConfiguration": "Cline-ի ձեռքով կազմաձևում",
     "kiloManualConfiguration": "Kilo Code-ի ձեռքով կազմաձևում",
+    "piManualConfiguration": "Pi - Ձեռնարկի կարգավորում",
+    "piConfigInvalidTitle": "Pi models.json անընթեռնելի է",
+    "piOmnirouteConfigured": "OmniRoute կազմաձևված է որպես Pi մաքսային մատակարար",
+    "piModelHelp": "Pi-ն ինքնաբերաբար չի հայտնաբերում մոդելներ հատուկ վերջնակետերի համար — ձեր ընտրած մոդելը բացահայտորեն գրված է models.json ում:",
+    "piManualConfigTitle": "Կամ խմբագրել ~/.pi/agent/models.json ձեռքով",
+    "piManualConfigSample": "'{\n  \"providers\": {\n    \"omniroute\": {\n      \"baseUrl\": \"http://127.0.0.1:20128/v1\",\n      \"api\": \"openai-completions\",\n      \"apiKey\": \"sk_omniroute\",\n      \"models\": [\n        { \"id\": \"auto/best-coding\", \"name\": \"OmniRoute best-coding\" }\n      ]\n    }\n  }\n}'",
+    "piManualConfigHint": "Այնուհետև գործարկեք Pi-ն և ընտրեք omniroute մատակարարին: Սահմանեք PI_CODING_AGENT_DIR ՝ տեղափոխելու ողջ գործակալի գրացուցակը:",
+    "piUnownedNote": "Այս գրառումն ավելացվել է OmniRoute դուրս (օրինակ՝ pi-gui-ի Հատուկ վերջնակետերը): Դիմելը կընդունի այն; Վերակայումը հեռացնում է միայն OmniRoute գրած գրառումները:",
     "whenToUseLabel": "Երբ օգտագործել",
     "openToolDocs": "Բացել գործիքի փաստաթղթերը",
     "toolUseCases": {
@@ -3281,6 +3289,12 @@
     "cliproxyapiUpdate": "Թարմացնել",
     "cliproxyapiUpdateAvailable": "Հասանելի է թարմացում՝ v{current} → v{latest}",
     "cliproxyapiVersion": "Տարբերակ",
+    "piInstallTitle": "Տեղադրեք Pi կոդավորման գործակալը",
+    "piInstallInstructions": "Տեղադրեք Pi CLI, այնուհետև վերադարձեք այստեղ՝ այն OmniRoute ին միացնելու համար:",
+    "piInstallCommand": "npm install -g --ignore-scripts @earendil-works/pi-coding-agent",
+    "piEndpoint": "OmniRoute URL",
+    "piEndpointHelp": "Օգտագործեք URL, որը հասանելի է Pi-ն աշխատող մեքենայից: OpenAI-ի հետ համատեղելի /v1 վերջնակետը ավելացվում է ավտոմատ կերպով:",
+    "piManualMergeHint": "Միայն նախադիտում: Միավորեք այս providers.omniroute մուտքը models.json ին, որպեսզի ձեր մյուս մատակարարներն ու կարգավորումները մնան անփոփոխ:",
     "removeMapping": "Հեռացնել համապատասխանեցումը"
   },
   "modelCatalog": {

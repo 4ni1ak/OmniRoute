@@ -2962,6 +2962,14 @@
     "openClawManualConfiguration": "Открытый коготь — ручная настройка",
     "clineManualConfiguration": "Ручная настройка Cline",
     "kiloManualConfiguration": "Ручная настройка кода Kilo",
+    "piManualConfiguration": "Пи — ручная настройка",
+    "piConfigInvalidTitle": "Пи models.json не читается",
+    "piOmnirouteConfigured": "OmniRoute настроен как пользовательский поставщик Pi",
+    "piModelHelp": "Pi не выполняет автоматическое обнаружение моделей для пользовательских конечных точек — выбранная вами модель явно записывается в models.json.",
+    "piManualConfigTitle": "Или отредактируйте ~/.pi/agent/models.json вручную",
+    "piManualConfigSample": "'{\n  \"providers\": {\n    \"omniroute\": {\n      \"baseUrl\": \"http://127.0.0.1:20128/v1\",\n      \"api\": \"openai-completions\",\n      \"apiKey\": \"sk_omniroute\",\n      \"models\": [\n        { \"id\": \"auto/best-coding\", \"name\": \"OmniRoute best-coding\" }\n      ]\n    }\n  }\n}'",
+    "piManualConfigHint": "Затем запустите Pi и выберите провайдера omniroute. Установите PI_CODING_AGENT_DIR для перемещения всего каталога агента.",
+    "piUnownedNote": "Эта запись была добавлена за пределами OmniRoute (например, пользовательские конечные точки pi-gui). Подача заявления примет его; Сброс удаляет только записи, записанные OmniRoute.",
     "whenToUseLabel": "Когда использовать",
     "openToolDocs": "Открыть документацию по инструменту",
     "toolUseCases": {
@@ -3281,6 +3289,12 @@
     "cliproxyapiUpdate": "Обновить",
     "cliproxyapiUpdateAvailable": "Доступно обновление: v{current} → v{latest}",
     "cliproxyapiVersion": "Версия",
+    "piInstallTitle": "Установите агент Pi Coding",
+    "piInstallInstructions": "Установите Pi CLI, затем вернитесь сюда, чтобы подключить его к OmniRoute.",
+    "piInstallCommand": "npm install -g --ignore-scripts @earendil-works/pi-coding-agent",
+    "piEndpoint": "OmniRoute URL",
+    "piEndpointHelp": "Используйте URL доступный с машины, на которой работает Pi. Конечная точка /v1, совместимая с OpenAI, добавляется автоматически.",
+    "piManualMergeHint": "Только предварительный просмотр. Объедините эту запись providers.omniroute с models.json, чтобы другие ваши провайдеры и настройки остались нетронутыми.",
     "removeMapping": "Удалить сопоставление"
   },
   "modelCatalog": {

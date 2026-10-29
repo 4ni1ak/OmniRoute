@@ -2962,6 +2962,14 @@
     "openClawManualConfiguration": "Open Claw - Ručna konfiguracija",
     "clineManualConfiguration": "Ručna konfiguracija Clinea",
     "kiloManualConfiguration": "Ručna konfiguracija Kilo Codea",
+    "piManualConfiguration": "Pi - Ručna konfiguracija",
+    "piConfigInvalidTitle": "Pi models.json je nečitljiv",
+    "piOmnirouteConfigured": "OmniRoute je konfiguriran kao Pi prilagođeni pružatelj usluga",
+    "piModelHelp": "Pi ne otkriva automatski modele za prilagođene krajnje točke — model koji odaberete je izričito zapisan u models.json.",
+    "piManualConfigTitle": "Ili uredite ~/.pi/agent/models.json ručno",
+    "piManualConfigSample": "'{\n  \"providers\": {\n    \"omniroute\": {\n      \"baseUrl\": \"http://127.0.0.1:20128/v1\",\n      \"api\": \"openai-completions\",\n      \"apiKey\": \"sk_omniroute\",\n      \"models\": [\n        { \"id\": \"auto/best-coding\", \"name\": \"OmniRoute best-coding\" }\n      ]\n    }\n  }\n}'",
+    "piManualConfigHint": "Zatim pokrenite Pi i odaberite omniroute providera. Postavite PI_CODING_AGENT_DIR da premjesti cijeli imenik agenta.",
+    "piUnownedNote": "Ovaj unos je dodan izvan OmniRoute (npr. prilagođene krajnje točke pi-guija). Primjena će ga usvojiti; Reset samo uklanja unose koje je OmniRoute napisao.",
     "whenToUseLabel": "Kada koristiti",
     "openToolDocs": "Otvori dokumentaciju alata",
     "toolUseCases": {
@@ -3281,6 +3289,12 @@
     "cliproxyapiUpdate": "Ažuriraj",
     "cliproxyapiUpdateAvailable": "Dostupno ažuriranje: v{current} → v{latest}",
     "cliproxyapiVersion": "Verzija",
+    "piInstallTitle": "Instalirajte Pi Coding Agent",
+    "piInstallInstructions": "Instalirajte Pi CLI, a zatim se vratite ovdje da biste ga povezali sa OmniRoute.",
+    "piInstallCommand": "npm install -g --ignore-scripts @earendil-works/pi-coding-agent",
+    "piEndpoint": "OmniRoute URL",
+    "piEndpointHelp": "Upotrijebite URL dostupan sa stroja koji pokreće Pi. OpenAI-kompatibilna /v1 krajnja točka dodaje se automatski.",
+    "piManualMergeHint": "Samo pregled. Spojite ovaj unos providers.omniroute u models.json kako bi ostali vaši pružatelji usluga i postavke ostali netaknuti.",
     "removeMapping": "Ukloni mapiranje"
   },
   "modelCatalog": {

@@ -2962,6 +2962,14 @@
     "openClawManualConfiguration": "OpenClaw - 手動設定",
     "clineManualConfiguration": "Cline - 手動設定",
     "kiloManualConfiguration": "Kilo - 手動設定",
+    "piManualConfiguration": "Pi - 手動配置",
+    "piConfigInvalidTitle": "Pi models.json無法讀取",
+    "piOmnirouteConfigured": "OmniRoute配置為 Pi 自訂提供程序",
+    "piModelHelp": "Pi 不會自動發現自訂端點—模型，您選擇的模型會明確寫入models.json 。",
+    "piManualConfigTitle": "或手動編輯~/.pi/agent/models.json",
+    "piManualConfigSample": "'{\n  \"providers\": {\n    \"omniroute\": {\n      \"baseUrl\": \"http://127.0.0.1:20128/v1\",\n      \"api\": \"openai-completions\",\n      \"apiKey\": \"sk_omniroute\",\n      \"models\": [\n        { \"id\": \"auto/best-coding\", \"name\": \"OmniRoute best-coding\" }\n      ]\n    }\n  }\n}'",
+    "piManualConfigHint": "然後啟動 Pi 並選擇omniroute提供者。設定PI_CODING_AGENT_DIR以移動整個代理目錄。",
+    "piUnownedNote": "該條目是在OmniRoute之外添加的（例如 pi-gui 的自訂端點）。申請就會採納；重置僅刪除OmniRoute寫入的條目。",
     "whenToUseLabel": "何時使用",
     "openToolDocs": "開啟工具檔案",
     "toolUseCases": {
@@ -3281,6 +3289,12 @@
     "cliproxyapiUpdate": "更新",
     "cliproxyapiUpdateAvailable": "可用更新：v{current} → v{latest}",
     "cliproxyapiVersion": "版本",
+    "piInstallTitle": "安裝 Pi 編碼代理",
+    "piInstallInstructions": "安裝 Pi CLI，然後返回此處將其連接到OmniRoute。",
+    "piInstallCommand": "npm install -g --ignore-scripts @earendil-works/pi-coding-agent",
+    "piEndpoint": "OmniRoute URL",
+    "piEndpointHelp": "使用可從運行 Pi 的機器存取的URL 。與 OpenAI 相容的 /v1 端點會自動新增。",
+    "piManualMergeHint": "僅預覽。將此providers.omniroute條目合併到models.json中，以便您的其他提供者和設定保持不變。",
     "removeMapping": "移除對應"
   },
   "modelCatalog": {

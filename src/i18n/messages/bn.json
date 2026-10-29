@@ -3039,6 +3039,14 @@
     "openClawManualConfiguration": "Open Claw - ম্যানুয়াল কনফিগারেশন",
     "clineManualConfiguration": "Cline ম্যানুয়াল কনফিগারেশন",
     "kiloManualConfiguration": "Kilo Code ম্যানুয়াল কনফিগারেশন",
+    "piManualConfiguration": "পাই - ম্যানুয়াল কনফিগারেশন",
+    "piConfigInvalidTitle": "Pi models.json অপঠনযোগ্য",
+    "piOmnirouteConfigured": "OmniRoute একটি Pi কাস্টম প্রদানকারী হিসাবে কনফিগার করা হয়েছে",
+    "piModelHelp": "Pi কাস্টম এন্ডপয়েন্টের জন্য মডেল স্বয়ংক্রিয়ভাবে খুঁজে পায় না — আপনি যে মডেলটি বেছে নেন সেটি সরাসরি models.json-এ লেখা হয়।",
+    "piManualConfigTitle": "অথবা ~/.pi/agent/models.json নিজে সম্পাদনা করুন",
+    "piManualConfigSample": "'{\n  \"providers\": {\n    \"omniroute\": {\n      \"baseUrl\": \"http://127.0.0.1:20128/v1\",\n      \"api\": \"openai-completions\",\n      \"apiKey\": \"sk_omniroute\",\n      \"models\": [\n        { \"id\": \"auto/best-coding\", \"name\": \"OmniRoute best-coding\" }\n      ]\n    }\n  }\n}'",
+    "piManualConfigHint": "তারপরে Pi শুরু করুন এবং omniroute প্রদানকারী নির্বাচন করুন। পুরো এজেন্ট ডিরেক্টরি সরাতে PI_CODING_AGENT_DIR সেট করুন।",
+    "piUnownedNote": "এই এন্ট্রিটি OmniRoute এর বাইরে যোগ করা হয়েছে (যেমন pi-gui-এর কাস্টম এন্ডপয়েন্ট)। আবেদন করলে তা গ্রহণ করবে; রিসেট শুধুমাত্র OmniRoute লেখা এন্ট্রি মুছে দেয়।",
     "whenToUseLabel": "কখন ব্যবহার করবেন",
     "openToolDocs": "টুলের ডকুমেন্টেশন খুলুন",
     "toolUseCases": {
@@ -3358,6 +3366,12 @@
     "cliproxyapiUpdate": "আপডেট",
     "cliproxyapiUpdateAvailable": "আপডেট উপলব্ধ: v{current} → v{latest}",
     "cliproxyapiVersion": "সংস্করণ",
+    "piInstallTitle": "পাই কোডিং এজেন্ট ইনস্টল করুন",
+    "piInstallInstructions": "Pi CLI ইনস্টল করুন, তারপর OmniRoute এর সাথে সংযোগ করতে এখানে ফিরে আসুন।",
+    "piInstallCommand": "npm install -g --ignore-scripts @earendil-works/pi-coding-agent",
+    "piEndpoint": "OmniRoute URL",
+    "piEndpointHelp": "Pi চালিত মেশিন থেকে URL ব্যবহার করুন। OpenAI- সামঞ্জস্যপূর্ণ /v1 এন্ডপয়েন্ট স্বয়ংক্রিয়ভাবে যোগ করা হয়।",
+    "piManualMergeHint": "শুধুমাত্র পূর্বরূপ. এই providers.omniroute এন্ট্রিকে models.json তে মার্জ করুন যাতে আপনার অন্যান্য প্রদানকারী এবং সেটিংস অক্ষত থাকে।",
     "removeMapping": "ম্যাপিং সরান"
   },
   "modelCatalog": {

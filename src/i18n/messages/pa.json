@@ -3039,6 +3039,14 @@
     "openClawManualConfiguration": "Open Claw - ਹੱਥੀਂ ਸੰਰਚਨਾ",
     "clineManualConfiguration": "Cline ਹੱਥੀਂ ਸੰਰਚਨਾ",
     "kiloManualConfiguration": "Kilo Code ਹੱਥੀਂ ਸੰਰਚਨਾ",
+    "piManualConfiguration": "Pi - ਮੈਨੁਅਲ ਕੌਂਫਿਗਰੇਸ਼ਨ",
+    "piConfigInvalidTitle": "Pi models.json ਪੜ੍ਹਨਯੋਗ ਨਹੀਂ ਹੈ",
+    "piOmnirouteConfigured": "OmniRoute ਨੂੰ ਇੱਕ Pi ਕਸਟਮ ਪ੍ਰਦਾਤਾ ਵਜੋਂ ਕੌਂਫਿਗਰ ਕੀਤਾ ਗਿਆ ਹੈ",
+    "piModelHelp": "Pi ਕਸਟਮ ਐਂਡਪੁਆਇੰਟਸ ਲਈ ਮਾਡਲਾਂ ਨੂੰ ਸਵੈ-ਖੋਜ ਨਹੀਂ ਕਰਦਾ — ਤੁਹਾਡੇ ਦੁਆਰਾ ਚੁਣਿਆ ਗਿਆ ਮਾਡਲ models.json ਵਿੱਚ ਸਪਸ਼ਟ ਤੌਰ 'ਤੇ ਲਿਖਿਆ ਗਿਆ ਹੈ।",
+    "piManualConfigTitle": "ਜਾਂ ~/.pi/agent/models.json ਹੱਥੀਂ ਸੰਪਾਦਿਤ ਕਰੋ",
+    "piManualConfigSample": "'{\n  \"providers\": {\n    \"omniroute\": {\n      \"baseUrl\": \"http://127.0.0.1:20128/v1\",\n      \"api\": \"openai-completions\",\n      \"apiKey\": \"sk_omniroute\",\n      \"models\": [\n        { \"id\": \"auto/best-coding\", \"name\": \"OmniRoute best-coding\" }\n      ]\n    }\n  }\n}'",
+    "piManualConfigHint": "ਫਿਰ Pi ਸ਼ੁਰੂ ਕਰੋ ਅਤੇ omniroute ਪ੍ਰਦਾਤਾ ਨੂੰ ਚੁਣੋ। ਪੂਰੀ ਏਜੰਟ ਡਾਇਰੈਕਟਰੀ ਨੂੰ ਮੂਵ ਕਰਨ ਲਈ PI_CODING_AGENT_DIR ਸੈੱਟ ਕਰੋ।",
+    "piUnownedNote": "ਇਹ ਐਂਟਰੀ OmniRoute (ਜਿਵੇਂ ਕਿ pi-gui ਦੇ ਕਸਟਮ ਐਂਡਪੁਆਇੰਟ) ਦੇ ਬਾਹਰ ਸ਼ਾਮਲ ਕੀਤੀ ਗਈ ਸੀ। ਅਪਨਾਉਣਾ ਇਸ ਨੂੰ ਅਪਨਾਏਗਾ; ਰੀਸੈਟ ਸਿਰਫ OmniRoute ਲਿਖੀਆਂ ਐਂਟਰੀਆਂ ਨੂੰ ਹਟਾਉਂਦਾ ਹੈ।",
     "whenToUseLabel": "ਕਦੋਂ ਵਰਤਣਾ ਹੈ",
     "openToolDocs": "ਟੂਲ ਦੇ ਦਸਤਾਵੇਜ਼ ਖੋਲ੍ਹੋ",
     "toolUseCases": {
@@ -3358,6 +3366,12 @@
     "cliproxyapiUpdate": "ਅੱਪਡੇਟ ਕਰੋ",
     "cliproxyapiUpdateAvailable": "ਅੱਪਡੇਟ ਉਪਲਬਧ ਹੈ: v{current} → v{latest}",
     "cliproxyapiVersion": "ਵਰਜਨ",
+    "piInstallTitle": "ਪਾਈ ਕੋਡਿੰਗ ਏਜੰਟ ਸਥਾਪਤ ਕਰੋ",
+    "piInstallInstructions": "Pi CLI ਨੂੰ ਇੰਸਟਾਲ ਕਰੋ, ਫਿਰ ਇਸਨੂੰ OmniRoute ਨਾਲ ਜੋੜਨ ਲਈ ਇੱਥੇ ਵਾਪਸ ਆਓ।",
+    "piInstallCommand": "npm install -g --ignore-scripts @earendil-works/pi-coding-agent",
+    "piEndpoint": "OmniRoute URL",
+    "piEndpointHelp": "ਪਾਈ ਚੱਲ ਰਹੀ ਮਸ਼ੀਨ ਤੋਂ ਪਹੁੰਚਯੋਗ URL ਵਰਤੋਂ ਕਰੋ। OpenAI- ਅਨੁਕੂਲ /v1 ਅੰਤਮ ਬਿੰਦੂ ਆਪਣੇ ਆਪ ਜੋੜਿਆ ਜਾਂਦਾ ਹੈ।",
+    "piManualMergeHint": "ਸਿਰਫ਼ ਝਲਕ। ਇਸ providers.omniroute ਐਂਟਰੀ ਨੂੰ models.json ਵਿੱਚ ਮਿਲਾਓ ਤਾਂ ਜੋ ਤੁਹਾਡੇ ਹੋਰ ਪ੍ਰਦਾਤਾ ਅਤੇ ਸੈਟਿੰਗਾਂ ਬਰਕਰਾਰ ਰਹਿਣ।",
     "removeMapping": "ਮੈਪਿੰਗ ਹਟਾਓ"
   },
   "modelCatalog": {

@@ -2962,6 +2962,14 @@
     "openClawManualConfiguration": "Open Claw - Cumraíocht de Láimh",
     "clineManualConfiguration": "Cumraíocht de Láimh Cline",
     "kiloManualConfiguration": "Cumraíocht de Láimh Kilo Code",
+    "piManualConfiguration": "Pi - Cumraíocht Lámhleabhar",
+    "piConfigInvalidTitle": "Níl pi models.json inléite",
+    "piOmnirouteConfigured": "Tá OmniRoute cumraithe mar sholáthraí saincheaptha Pi",
+    "piModelHelp": "Ní aimsíonn Pi samhlacha le haghaidh críochphointí saincheaptha go huathoibríoch — tá an tsamhail a roghnaíonn tú scríofa go models.json go sainráite.",
+    "piManualConfigTitle": "Nó cuir in eagar ~/.pi/agent/models.json de láimh",
+    "piManualConfigSample": "'{\n  \"providers\": {\n    \"omniroute\": {\n      \"baseUrl\": \"http://127.0.0.1:20128/v1\",\n      \"api\": \"openai-completions\",\n      \"apiKey\": \"sk_omniroute\",\n      \"models\": [\n        { \"id\": \"auto/best-coding\", \"name\": \"OmniRoute best-coding\" }\n      ]\n    }\n  }\n}'",
+    "piManualConfigHint": "Ansin tosú Pi agus roghnaigh an soláthraí omniroute. Socraigh PI_CODING_AGENT_DIR chun an t-eolaire gníomhaire iomlán a bhogadh.",
+    "piUnownedNote": "Cuireadh an iontráil seo taobh amuigh de OmniRoute (m.sh. críochphointí Saincheaptha pi-gui). Ag cur isteach glacfaidh sé; Ní bhaineann athshocrú ach na hiontrálacha a scríobh OmniRoute.",
     "whenToUseLabel": "Cathain le húsáid",
     "openToolDocs": "Oscail doiciméadacht na huirlise",
     "toolUseCases": {
@@ -3281,6 +3289,12 @@
     "cliproxyapiUpdate": "Nuashonrú",
     "cliproxyapiUpdateAvailable": "Nuashonrú ar fáil: v{current} → v{latest}",
     "cliproxyapiVersion": "Leagan",
+    "piInstallTitle": "Suiteáil Pi Gníomhaire Códaithe",
+    "piInstallInstructions": "Suiteáil an Pi CLI, ansin ar ais anseo chun é a nascadh le OmniRoute.",
+    "piInstallCommand": "npm install -g --ignore-scripts @earendil-works/pi-coding-agent",
+    "piEndpoint": "OmniRoute URL",
+    "piEndpointHelp": "Bain úsáid as an URL insroichte ón meaisín atá ag rith Pi. Cuirtear críochphointe /v1 OpenAI-comhoiriúnach leis go huathoibríoch.",
+    "piManualMergeHint": "Réamhamharc amháin. Cumaisc an iontráil providers.omniroute seo le models.json ionas go bhfanfaidh do sholáthraithe agus do shocruithe eile slán.",
     "removeMapping": "Bain an mhapáil"
   },
   "modelCatalog": {

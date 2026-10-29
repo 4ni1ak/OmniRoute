@@ -2962,6 +2962,14 @@
     "openClawManualConfiguration": "Open Claw - Configurare manuală",
     "clineManualConfiguration": "Configurare manuală a liniei",
     "kiloManualConfiguration": "Configurare manuală a codului Kilo",
+    "piManualConfiguration": "Pi - Configurare manuală",
+    "piConfigInvalidTitle": "Pi models.json este ilizibil",
+    "piOmnirouteConfigured": "OmniRoute este configurat ca furnizor personalizat Pi",
+    "piModelHelp": "Pi nu descoperă automat modele pentru punctele finale personalizate — modelul pe care îl alegeți este scris în mod explicit în models.json.",
+    "piManualConfigTitle": "Sau editați ~/.pi/agent/models.json manual",
+    "piManualConfigSample": "'{\n  \"providers\": {\n    \"omniroute\": {\n      \"baseUrl\": \"http://127.0.0.1:20128/v1\",\n      \"api\": \"openai-completions\",\n      \"apiKey\": \"sk_omniroute\",\n      \"models\": [\n        { \"id\": \"auto/best-coding\", \"name\": \"OmniRoute best-coding\" }\n      ]\n    }\n  }\n}'",
+    "piManualConfigHint": "Apoi porniți Pi și selectați furnizorul omniroute. Setați PI_CODING_AGENT_DIR pentru a muta întregul director al agenților.",
+    "piUnownedNote": "Această intrare a fost adăugată în afara OmniRoute (de exemplu, punctele finale personalizate ale pi-gui). Aplicarea o va adopta; Resetarea elimină doar intrările scrise OmniRoute.",
     "whenToUseLabel": "Când să utilizați",
     "openToolDocs": "Deschideți documentele instrumentului",
     "toolUseCases": {
@@ -3281,6 +3289,12 @@
     "cliproxyapiUpdate": "Actualizare",
     "cliproxyapiUpdateAvailable": "Actualizare disponibilă: v{current} → v{latest}",
     "cliproxyapiVersion": "Versiune",
+    "piInstallTitle": "Instalați Pi Coding Agent",
+    "piInstallInstructions": "Instalați Pi CLI, apoi reveniți aici pentru a-l conecta la OmniRoute.",
+    "piInstallCommand": "npm install -g --ignore-scripts @earendil-works/pi-coding-agent",
+    "piEndpoint": "OmniRoute URL",
+    "piEndpointHelp": "Utilizați URL accesibil de la mașina care rulează Pi. Punctul final /v1 compatibil OpenAI este adăugat automat.",
+    "piManualMergeHint": "Doar previzualizare. Îmbinați această intrare providers.omniroute în models.json astfel încât ceilalți furnizori și setări să rămână intacte.",
     "removeMapping": "Elimină maparea"
   },
   "modelCatalog": {
