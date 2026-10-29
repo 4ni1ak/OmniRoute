@@ -12245,7 +12245,11 @@
       "viewConversation": "suhbatni koʻrish",
       "openConversation": "{id} suhbatini ochish"
     },
-    "tableLabel": "Soʻrov jurnallari"
+    "tableLabel": "Soʻrov jurnallari",
+    "throughputPostFirstToken": "Birinchi tokendan keyin",
+    "throughputEndToEnd": "Boshdan-oxirigacha",
+    "throughputRate": "{value} token/sek",
+    "throughputExplanation": "Ikkala koʻrsatkich ham chiqish va mulohaza tokenlari sonidan kattasini ishlatadi. Birinchi tokendan keyingi koʻrsatkich haqiqiy TTFTni hisobga olmaydi; aks holda u toʻliq davomiylikdan foydalanadi. Boshdan-oxirigacha har doim toʻliq davomiylikdan foydalanadi. Buferlangan javob model tezroq generatsiya qilmasa ham, yuqori portlash yetkazib berish tezligiga ega boʻlishi mumkin."
   },
   "proxyLogger": {
     "filterAll": "Barchasi",

@@ -12245,7 +12245,11 @@
       "viewConversation": "xem hội thoại",
       "openConversation": "Mở hội thoại {id}"
     },
-    "tableLabel": "Nhật ký yêu cầu"
+    "tableLabel": "Nhật ký yêu cầu",
+    "throughputPostFirstToken": "Sau token đầu tiên",
+    "throughputEndToEnd": "Từ đầu đến cuối",
+    "throughputRate": "{value} token/giây",
+    "throughputExplanation": "Cả hai tốc độ đều dùng giá trị lớn hơn giữa số token đầu ra và số token suy luận. Sau token đầu tiên loại trừ TTFT hợp lệ; nếu không, nó dùng toàn bộ thời lượng. Từ đầu đến cuối luôn dùng toàn bộ thời lượng. Một phản hồi được đệm có thể có tốc độ gửi bùng nổ cao mà mô hình không tạo nhanh hơn."
   },
   "proxyLogger": {
     "filterAll": "Tất cả",

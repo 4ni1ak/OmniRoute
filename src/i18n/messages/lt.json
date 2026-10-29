@@ -12245,7 +12245,11 @@
       "viewConversation": "Peržiūrėti pokalbį",
       "openConversation": "Atidaryti pokalbį {id}"
     },
-    "tableLabel": "Užklausų žurnalai"
+    "tableLabel": "Užklausų žurnalai",
+    "throughputPostFirstToken": "Po pirmojo tokeno",
+    "throughputEndToEnd": "Nuo pradžios iki pabaigos",
+    "throughputRate": "{value} tokenų/s",
+    "throughputExplanation": "Abi spartos apskaičiuojamos pagal didesnį iš išvesties ir samprotavimo tokenų skaičių. Skaičiuojant spartą po pirmojo tokeno, galiojanti TTFT neįtraukiama; kitu atveju naudojama visa trukmė. Skaičiuojant spartą nuo pradžios iki pabaigos, visada naudojama visa trukmė. Buferinis atsakas gali būti pateikiamas dideliu momentiniu greičiu, nors modelis nėra generuojamas greičiau."
   },
   "proxyLogger": {
     "filterAll": "Visi",

@@ -12322,7 +12322,11 @@
       "viewConversation": "ara l-konverżazzjoni",
       "openConversation": "Iftaħ il-konverżazzjoni {id}"
     },
-    "tableLabel": "Reġistri tat-talbiet"
+    "tableLabel": "Reġistri tat-talbiet",
+    "throughputPostFirstToken": "Wara l-ewwel token",
+    "throughputEndToEnd": "Mit-tarf għat-tarf",
+    "throughputRate": "{value} tokens/sec",
+    "throughputExplanation": "Iż-żewġ rati jużaw l-akbar fost l-għadd ta' tokens tal-output u tar-raġunament. Il-metrika 'Wara l-ewwel token' teskludi TTFT validu; inkella tuża t-tul sħiħ. Mit-tarf għat-tarf dejjem juża t-tul sħiħ. Risposta b'buffer tista' jkollha rata għolja ta' twassil f'daqqa mingħajr ġenerazzjoni aktar mgħaġġla mill-mudell."
   },
   "proxyLogger": {
     "filterAll": "Kollha",

@@ -12245,7 +12245,11 @@
       "viewConversation": "zobraziť konverzáciu",
       "openConversation": "Otvoriť konverzáciu {id}"
     },
-    "tableLabel": "Záznamy požiadaviek"
+    "tableLabel": "Záznamy požiadaviek",
+    "throughputPostFirstToken": "Po prvom tokene",
+    "throughputEndToEnd": "Od začiatku do konca",
+    "throughputRate": "{value} tokenov/s",
+    "throughputExplanation": "Obe rýchlosti používajú väčší z počtov výstupných tokenov a tokenov uvažovania. Hodnota Po prvom tokene nezahŕňa platný TTFT; inak používa celkové trvanie. Hodnota Od začiatku do konca vždy používa celkové trvanie. Odpoveď vo vyrovnávacej pamäti môže mať vysokú rýchlosť doručenia v dávke bez toho, aby model generoval rýchlejšie."
   },
   "proxyLogger": {
     "filterAll": "Všetko",

@@ -12245,7 +12245,11 @@
       "viewConversation": "skatīt sarunu",
       "openConversation": "Atvērt sarunu {id}"
     },
-    "tableLabel": "Pieprasījumu žurnāli"
+    "tableLabel": "Pieprasījumu žurnāli",
+    "throughputPostFirstToken": "Pēc pirmā marķiera",
+    "throughputEndToEnd": "No sākuma līdz beigām",
+    "throughputRate": "{value} marķieri/s",
+    "throughputExplanation": "Abas likmes izmanto lielāko no izvades un spriešanas marķieru skaita. Rādītājs “Pēc pirmā marķiera” neietver derīgu TTFT; pretējā gadījumā tiek izmantots pilns ilgums. Rādītājs “No sākuma līdz beigām” vienmēr izmanto pilnu ilgumu. Buferētai atbildei var būt augsta brāzmaina piegādes likme bez ātrākas modeļa ģenerēšanas."
   },
   "proxyLogger": {
     "filterAll": "Visi",

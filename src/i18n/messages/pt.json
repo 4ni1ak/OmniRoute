@@ -12322,7 +12322,11 @@
       "viewConversation": "ver conversa",
       "openConversation": "Abrir conversa {id}"
     },
-    "tableLabel": "Registos de pedidos"
+    "tableLabel": "Registos de pedidos",
+    "throughputPostFirstToken": "Após o primeiro token",
+    "throughputEndToEnd": "Ponta a ponta",
+    "throughputRate": "{value} tokens/s",
+    "throughputExplanation": "Ambas as taxas utilizam o maior valor entre a contagem de tokens de saída e de raciocínio. A taxa após o primeiro token exclui um TTFT válido; caso contrário, utiliza a duração total. A taxa ponta a ponta utiliza sempre a duração total. Uma resposta em buffer pode ter uma taxa de entrega em rajada elevada sem que a geração do modelo seja mais rápida."
   },
   "proxyLogger": {
     "filterAll": "Todos",

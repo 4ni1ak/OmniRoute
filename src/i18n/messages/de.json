@@ -12245,7 +12245,11 @@
       "viewConversation": "Konversation anzeigen",
       "openConversation": "Konversation {id} öffnen"
     },
-    "tableLabel": "Anfrageprotokolle"
+    "tableLabel": "Anfrageprotokolle",
+    "throughputPostFirstToken": "Nach erstem Token",
+    "throughputEndToEnd": "End-to-End",
+    "throughputRate": "{value} Tokens/Sek.",
+    "throughputExplanation": "Beide Raten verwenden den größeren der Token-Zählwerte für Ausgabe und Reasoning. „Nach erstem Token“ schließt eine gültige TTFT aus; andernfalls wird die volle Dauer verwendet. End-to-End verwendet immer die volle Dauer. Eine gepufferte Antwort kann eine hohe Burst-Lieferrate aufweisen, ohne dass das Modell schneller generiert."
   },
   "proxyLogger": {
     "filterAll": "Alle",

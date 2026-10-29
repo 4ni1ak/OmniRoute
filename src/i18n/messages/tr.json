@@ -12245,7 +12245,11 @@
       "viewConversation": "konuşmayı görüntüle",
       "openConversation": "{id} konuşmasını aç"
     },
-    "tableLabel": "İstek günlükleri"
+    "tableLabel": "İstek günlükleri",
+    "throughputPostFirstToken": "İlk token sonrası",
+    "throughputEndToEnd": "Uçtan uca",
+    "throughputRate": "{value} token/sn",
+    "throughputExplanation": "Her iki oran da çıktı ve akıl yürütme token sayılarından büyük olanını kullanır. İlk token sonrası, geçerli bir TTFT'yi hariç tutar; aksi durumda tam süreyi kullanır. Uçtan uca her zaman tam süreyi kullanır. Tamponlanmış bir yanıt, daha hızlı model üretimi olmadan yüksek ani teslim hızına sahip olabilir."
   },
   "proxyLogger": {
     "filterAll": "Tümü",

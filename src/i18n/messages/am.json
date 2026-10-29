@@ -12322,7 +12322,11 @@
       "viewConversation": "ውይይቱን ይመልከቱ",
       "openConversation": "ውይይት {id}ን ይክፈቱ"
     },
-    "tableLabel": "የጥያቄ ምዝግብ ማስታወሻዎች"
+    "tableLabel": "የጥያቄ ምዝግብ ማስታወሻዎች",
+    "throughputPostFirstToken": "ከመጀመሪያው ቶከን በኋላ",
+    "throughputEndToEnd": "ከጫፍ እስከ ጫፍ",
+    "throughputRate": "በሰከንድ {value} ቶከኖች",
+    "throughputExplanation": "ሁለቱም ፍጥነቶች ከውጤት እና ከምክንያታዊ ትንተና ቶከኖች ብዛት የሚበልጠውን ይጠቀማሉ። ከመጀመሪያው ቶከን በኋላ ያለው ፍጥነት ትክክለኛ TTFTን አያካትትም፤ ካልሆነ ግን ሙሉውን ቆይታ ይጠቀማል። ከጫፍ እስከ ጫፍ ሁልጊዜ ሙሉውን ቆይታ ይጠቀማል። በቋት የተያዘ ምላሽ የሞዴሉ ማመንጨት ሳይፈጥን ከፍተኛ የፈጣን ማድረስ ፍጥነት ሊኖረው ይችላል።"
   },
   "proxyLogger": {
     "filterAll": "ሁሉም",

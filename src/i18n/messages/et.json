@@ -12245,7 +12245,11 @@
       "viewConversation": "Kuva vestlus",
       "openConversation": "Ava vestlus {id}"
     },
-    "tableLabel": "Päringulogid"
+    "tableLabel": "Päringulogid",
+    "throughputPostFirstToken": "Pärast esimest tokenit",
+    "throughputEndToEnd": "Otsast lõpuni",
+    "throughputRate": "{value} tokenit/sek",
+    "throughputExplanation": "Mõlemad kiirused kasutavad suuremat väljundi- ja arutlustokenite arvu. Esimese tokeni järgne kiirus jätab kehtiva TTFT välja; vastasel juhul kasutab see kogu kestust. Otsast-lõpuni kiirus kasutab alati kogu kestust. Puhverdatud vastusel võib olla kõrge puhanguline tarnimiskiirus, ilma et mudeli genereerimine oleks kiirem."
   },
   "proxyLogger": {
     "filterAll": "Kõik",

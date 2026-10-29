@@ -12245,7 +12245,11 @@
       "viewConversation": "gesprek bekijken",
       "openConversation": "Gesprek {id} openen"
     },
-    "tableLabel": "Aanvraaglogboeken"
+    "tableLabel": "Aanvraaglogboeken",
+    "throughputPostFirstToken": "Na eerste token",
+    "throughputEndToEnd": "End-to-end",
+    "throughputRate": "{value} tokens/sec",
+    "throughputExplanation": "Beide snelheden gebruiken het hoogste van de output- en reasoning-tokentellingen. Na eerste token sluit een geldige TTFT uit; anders wordt de volledige duur gebruikt. End-to-end gebruikt altijd de volledige duur. Een gebufferde respons kan een hoge piekleveringssnelheid hebben zonder dat het model sneller genereert."
   },
   "proxyLogger": {
     "filterAll": "Alles",

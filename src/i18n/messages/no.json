@@ -12245,7 +12245,11 @@
       "viewConversation": "vis samtale",
       "openConversation": "Åpne samtale {id}"
     },
-    "tableLabel": "Forespørselslogger"
+    "tableLabel": "Forespørselslogger",
+    "throughputPostFirstToken": "Etter første token",
+    "throughputEndToEnd": "Ende-til-ende",
+    "throughputRate": "{value} tokens/sek",
+    "throughputExplanation": "Begge ratene bruker det største av antall output- og resonneringstokens. Etter første token ekskluderer en gyldig TTFT; ellers brukes hele varigheten. Ende-til-ende bruker alltid hele varigheten. Et bufret svar kan ha høy burst-leveringsrate uten raskere modellgenerering."
   },
   "proxyLogger": {
     "filterAll": "Alle",

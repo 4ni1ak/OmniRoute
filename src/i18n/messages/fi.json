@@ -12245,7 +12245,11 @@
       "viewConversation": "näytä keskustelu",
       "openConversation": "Avaa keskustelu {id}"
     },
-    "tableLabel": "Pyyntölokit"
+    "tableLabel": "Pyyntölokit",
+    "throughputPostFirstToken": "Ensimmäisen tokenin jälkeen",
+    "throughputEndToEnd": "Päästä päähän",
+    "throughputRate": "{value} tokenia/s",
+    "throughputExplanation": "Molemmat nopeudet käyttävät suurempaa tuloste- ja päättelytokenmäärää. Ensimmäisen tokenin jälkeinen nopeus jättää kelvollisen TTFT:n huomiotta; muuten se käyttää koko kestoa. Päästä päähän -nopeus käyttää aina koko kestoa. Puskuroidulla vastauksella voi olla korkea pursketoimitusnopeus ilman, että mallin generointi olisi nopeampaa."
   },
   "proxyLogger": {
     "filterAll": "Kaikki",

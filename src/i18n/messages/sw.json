@@ -12245,7 +12245,11 @@
       "viewConversation": "tazama mazungumzo",
       "openConversation": "Fungua mazungumzo {id}"
     },
-    "tableLabel": "Kumbukumbu za maombi"
+    "tableLabel": "Kumbukumbu za maombi",
+    "throughputPostFirstToken": "Baada ya tokeni ya kwanza",
+    "throughputEndToEnd": "Mwanzo hadi mwisho",
+    "throughputRate": "{value} tokeni/sek",
+    "throughputExplanation": "Viwango vyote viwili hutumia idadi kubwa zaidi kati ya tokeni za matokeo na tokeni za ufikiri. Baada-ya-tokeni-ya-kwanza haijumuishi TTFT halali; vinginevyo hutumia muda kamili. Mwanzo-hadi-mwisho hutumia muda kamili kila wakati. Jibu lililohifadhiwa linaweza kuwa na kiwango cha juu cha uwasilishaji wa mlipuko bila uzalishaji wa modeli wa haraka zaidi."
   },
   "proxyLogger": {
     "filterAll": "Zote",

@@ -12245,7 +12245,11 @@
       "viewConversation": "prikaži razgovor",
       "openConversation": "Otvori razgovor {id}"
     },
-    "tableLabel": "Zapisi zahtjeva"
+    "tableLabel": "Zapisi zahtjeva",
+    "throughputPostFirstToken": "Nakon prvog tokena",
+    "throughputEndToEnd": "Od početka do kraja",
+    "throughputRate": "{value} tokena/s",
+    "throughputExplanation": "Obje brzine koriste veći od brojeva izlaznih tokena i tokena zaključivanja. Nakon prvog tokena isključuje valjani TTFT; inače koristi puno trajanje. Od početka do kraja uvijek koristi puno trajanje. Odgovor iz međuspremnika može imati visoku brzinu isporuke u rafalima, a da model ne generira brže."
   },
   "proxyLogger": {
     "filterAll": "Sve",

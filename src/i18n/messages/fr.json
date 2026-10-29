@@ -12245,7 +12245,11 @@
       "viewConversation": "afficher la conversation",
       "openConversation": "Ouvrir la conversation {id}"
     },
-    "tableLabel": "Journaux des requêtes"
+    "tableLabel": "Journaux des requêtes",
+    "throughputPostFirstToken": "Après le premier token",
+    "throughputEndToEnd": "Bout en bout",
+    "throughputRate": "{value} tokens/sec",
+    "throughputExplanation": "Les deux débits utilisent le plus grand des nombres de tokens de sortie et de raisonnement. Le débit après le premier token exclut un TTFT valide ; sinon, il utilise la durée totale. Le débit bout en bout utilise toujours la durée totale. Une réponse mise en mémoire tampon peut présenter un débit de livraison en rafale élevé sans génération de modèle plus rapide."
   },
   "proxyLogger": {
     "filterAll": "Tous",

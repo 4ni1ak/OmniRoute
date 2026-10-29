@@ -12322,7 +12322,11 @@
       "viewConversation": "prikaži razgovor",
       "openConversation": "Otvori razgovor {id}"
     },
-    "tableLabel": "Zapisnici zahtjeva"
+    "tableLabel": "Zapisnici zahtjeva",
+    "throughputPostFirstToken": "Nakon prvog tokena",
+    "throughputEndToEnd": "Od početka do kraja",
+    "throughputRate": "{value} tokena/s",
+    "throughputExplanation": "Obje stope koriste veću vrijednost između broja izlaznih tokena i tokena zaključivanja. Stopa nakon prvog tokena isključuje važeći TTFT; u suprotnom koristi puno trajanje. Stopa od početka do kraja uvijek koristi puno trajanje. Baferisani odgovor može imati visoku stopu isporuke u rafalu bez brže generacije modela."
   },
   "proxyLogger": {
     "filterAll": "Sve",

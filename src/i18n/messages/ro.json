@@ -12245,7 +12245,11 @@
       "viewConversation": "vezi conversația",
       "openConversation": "Deschide conversația {id}"
     },
-    "tableLabel": "Jurnale de solicitări"
+    "tableLabel": "Jurnale de solicitări",
+    "throughputPostFirstToken": "După primul token",
+    "throughputEndToEnd": "De la un capăt la altul",
+    "throughputRate": "{value} tokeni/sec",
+    "throughputExplanation": "Ambele rate folosesc valoarea mai mare dintre numărul de tokeni de ieșire și cel de raționament. Rata după primul token exclude un TTFT valid; în caz contrar, folosește durata completă. Rata de la un capăt la altul folosește întotdeauna durata completă. Un răspuns tamponat poate avea o rată de livrare în rafală ridicată fără o generare mai rapidă a modelului."
   },
   "proxyLogger": {
     "filterAll": "Toate",
