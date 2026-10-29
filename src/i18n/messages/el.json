@@ -8940,7 +8940,9 @@
         "financial": "Οικονομικό",
         "brazilian": "Βραζιλιάνικο",
         "usa": "ΗΠΑ",
-        "full": "Πλήρες"
+        "full": "Πλήρες",
+        "gdpr": "GDPR (EU)",
+        "popia": "POPIA (Νότια Αφρική)"
       },
       "builtinTypes": "Ενσωματωμένοι τύποι",
       "types": {
@@ -8954,7 +8956,19 @@
         "ip_address": "Διευθύνσεις IPv4",
         "ipv6_address": "Διευθύνσεις IPv6",
         "aws_key": "Κλειδιά πρόσβασης AWS",
-        "api_key_generic": "Κλειδιά API και tokens"
+        "api_key_generic": "Κλειδιά API και tokens",
+        "iban": "Αριθμοί τραπεζικών λογαριασμών IBAN",
+        "eu_vat": "EU VAT αριθμοί",
+        "es_dni_nie": "Ισπανικά DNI / NIE",
+        "it_codice_fiscale": "Ιταλικός Κώδικας Fiscale",
+        "pl_pesel": "Πολωνική PESEL",
+        "nl_bsn": "Ολλανδικά BSN",
+        "de_steuer_id": "Γερμανική Steuer-ID",
+        "se_personnummer": "Σουηδικός αριθμός προσωπικού",
+        "za_id": "Νοτιοαφρικανικοί αριθμοί ID",
+        "za_phone": "Αριθμοί τηλεφώνου της Νότιας Αφρικής",
+        "za_vat": "Νοτιοαφρικανικοί αριθμοί VAT",
+        "za_tax_ref": "φορολογικές αναφορές Νότιας Αφρικής"
       },
       "customPatterns": "Προσαρμοσμένα μοτίβα",
       "customPatternsDesc": "Οι αντιστοιχίες αντικαθίστανται με [CUSTOM_REDACTED]. Έως {max} μοτίβα. Μοτίβα με κίνδυνο καταστροφικής οπισθοδρόμησης απορρίπτονται.",

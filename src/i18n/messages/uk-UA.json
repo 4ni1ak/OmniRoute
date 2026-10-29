@@ -8940,7 +8940,9 @@
         "financial": "Фінансовий",
         "brazilian": "Бразильський",
         "usa": "США",
-        "full": "Повний"
+        "full": "Повний",
+        "gdpr": "GDPR (EU)",
+        "popia": "POPIA (Південна Африка)"
       },
       "builtinTypes": "Вбудовані типи",
       "types": {
@@ -8954,7 +8956,19 @@
         "ip_address": "IPv4-адреси",
         "ipv6_address": "IPv6-адреси",
         "aws_key": "Ключі доступу AWS",
-        "api_key_generic": "API-ключі та токени"
+        "api_key_generic": "API-ключі та токени",
+        "iban": "IBAN номери банківських рахунків",
+        "eu_vat": "EU VAT числа",
+        "es_dni_nie": "Іспанська DNI / NIE",
+        "it_codice_fiscale": "Італійський Codice Fiscale",
+        "pl_pesel": "Польська PESEL",
+        "nl_bsn": "голландська BSN",
+        "de_steuer_id": "Німецький Steuer-ID",
+        "se_personnummer": "Шведський personnummer",
+        "za_id": "Південноафриканські номери ID",
+        "za_phone": "Номери телефонів Південної Африки",
+        "za_vat": "Південноафриканські номери VAT",
+        "za_tax_ref": "Податкові довідки Південної Африки"
       },
       "customPatterns": "Власні шаблони",
       "customPatternsDesc": "Збіги замінюються на [CUSTOM_REDACTED]. До {max} шаблонів. Шаблони з ризиком катастрофічного бектрекінгу відхиляються.",

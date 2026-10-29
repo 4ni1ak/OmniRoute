@@ -8940,7 +8940,9 @@
         "financial": "Finanzen",
         "brazilian": "Brasilien",
         "usa": "USA",
-        "full": "Vollständig"
+        "full": "Vollständig",
+        "gdpr": "DSGVO (EU)",
+        "popia": "POPIA (Südafrika)"
       },
       "builtinTypes": "Integrierte Typen",
       "types": {
@@ -8954,7 +8956,19 @@
         "ip_address": "IPv4-Adressen",
         "ipv6_address": "IPv6-Adressen",
         "aws_key": "AWS-Zugriffsschlüssel",
-        "api_key_generic": "API-Schlüssel und Tokens"
+        "api_key_generic": "API-Schlüssel und Tokens",
+        "iban": "IBAN-Kontonummern",
+        "eu_vat": "EU-USt-IdNr.",
+        "es_dni_nie": "Spanische DNI / NIE",
+        "it_codice_fiscale": "Italienischer Codice Fiscale",
+        "pl_pesel": "Polnische PESEL",
+        "nl_bsn": "Niederländische BSN",
+        "de_steuer_id": "Deutsche Steuer-ID",
+        "se_personnummer": "Schwedische Personnummer",
+        "za_id": "Südafrikanische ID-Nummern",
+        "za_phone": "Südafrikanische Telefonnummern",
+        "za_vat": "Südafrikanische USt-Nummern",
+        "za_tax_ref": "Südafrikanische Steuernummern"
       },
       "customPatterns": "Eigene Muster",
       "customPatternsDesc": "Treffer werden durch [CUSTOM_REDACTED] ersetzt. Bis zu {max} Muster. Muster mit Risiko für katastrophales Backtracking werden abgelehnt.",

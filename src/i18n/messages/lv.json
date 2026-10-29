@@ -8940,7 +8940,9 @@
         "financial": "Finanšu",
         "brazilian": "Brazīlijas",
         "usa": "ASV",
-        "full": "Pilnā"
+        "full": "Pilnā",
+        "gdpr": "GDPR (EU)",
+        "popia": "POPIA (Dienvidāfrika)"
       },
       "builtinTypes": "Iebūvētie veidi",
       "types": {
@@ -8954,7 +8956,19 @@
         "ip_address": "IPv4 adreses",
         "ipv6_address": "IPv6 adreses",
         "aws_key": "AWS piekļuves atslēgas",
-        "api_key_generic": "API atslēgas un žetoni"
+        "api_key_generic": "API atslēgas un žetoni",
+        "iban": "IBAN bankas kontu numuri",
+        "eu_vat": "EU VAT cipari",
+        "es_dni_nie": "spāņu DNI / NIE",
+        "it_codice_fiscale": "Itāļu Codice Fiscale",
+        "pl_pesel": "poļu PESEL",
+        "nl_bsn": "Holandiešu BSN",
+        "de_steuer_id": "Vācu Steuer-ID",
+        "se_personnummer": "Zviedru personnummer",
+        "za_id": "Dienvidāfrikas ID skaitļi",
+        "za_phone": "Dienvidāfrikas tālruņu numuri",
+        "za_vat": "Dienvidāfrikas VAT skaitļi",
+        "za_tax_ref": "Dienvidāfrikas nodokļu atsauces"
       },
       "customPatterns": "Pielāgoti šabloni",
       "customPatternsDesc": "Atbilstības tiek aizstātas ar [CUSTOM_REDACTED]. Līdz {max} šabloniem. Šabloni ar katastrofālas atkāpšanās risku tiek noraidīti.",

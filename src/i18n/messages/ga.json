@@ -8940,7 +8940,9 @@
         "financial": "Airgeadais",
         "brazilian": "Brasaíleach",
         "usa": "SAM",
-        "full": "Iomlán"
+        "full": "Iomlán",
+        "gdpr": "GDPR (EU)",
+        "popia": "POPIA (An Afraic Theas)"
       },
       "builtinTypes": "Cineálacha ionsuite",
       "types": {
@@ -8954,7 +8956,19 @@
         "ip_address": "Seoltaí IPv4",
         "ipv6_address": "Seoltaí IPv6",
         "aws_key": "Eochracha rochtana AWS",
-        "api_key_generic": "Eochracha API agus comharthaí"
+        "api_key_generic": "Eochracha API agus comharthaí",
+        "iban": "IBAN uimhreacha cuntais bainc",
+        "eu_vat": "EU VAT uimhreacha",
+        "es_dni_nie": "Spáinnis DNI / NIE",
+        "it_codice_fiscale": "Cód Fiscale na hIodáile",
+        "pl_pesel": "Polainnis PESEL",
+        "nl_bsn": "Ollainnis BSN",
+        "de_steuer_id": "Gearmáinis Steuer-ID",
+        "se_personnummer": "pearsanra Sualainnis",
+        "za_id": "Uimhreacha ID Afraic Theas",
+        "za_phone": "Uimhreacha gutháin na hAfraice Theas",
+        "za_vat": "Uimhreacha VAT Afraic Theas",
+        "za_tax_ref": "Tagairtí cánach na hAfraice Theas"
       },
       "customPatterns": "Patrúin shaincheaptha",
       "customPatternsDesc": "Cuirtear [CUSTOM_REDACTED] in ionad na meaitseálacha. Suas le {max} patrún. Diúltaítear do phatrúin a bhfuil baol cúlrianaithe tubaistigh ag baint leo.",

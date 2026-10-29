@@ -8940,7 +8940,9 @@
         "financial": "金融",
         "brazilian": "ブラジル",
         "usa": "米国",
-        "full": "すべて"
+        "full": "すべて",
+        "gdpr": "GDPR (EU)",
+        "popia": "POPIA (南アフリカ)"
       },
       "builtinTypes": "組み込みタイプ",
       "types": {
@@ -8954,7 +8956,19 @@
         "ip_address": "IPv4 アドレス",
         "ipv6_address": "IPv6 アドレス",
         "aws_key": "AWS アクセスキー",
-        "api_key_generic": "API キーとトークン"
+        "api_key_generic": "API キーとトークン",
+        "iban": "IBAN 銀行口座番号",
+        "eu_vat": "EU VAT 番号",
+        "es_dni_nie": "スペインの DNI / NIE",
+        "it_codice_fiscale": "イタリアの Codice Fiscale",
+        "pl_pesel": "ポーランドの PESEL",
+        "nl_bsn": "オランダの BSN",
+        "de_steuer_id": "ドイツの Steuer-ID",
+        "se_personnummer": "スウェーデンの personnummer",
+        "za_id": "南アフリカの ID 番号",
+        "za_phone": "南アフリカの電話番号",
+        "za_vat": "南アフリカの VAT 番号",
+        "za_tax_ref": "南アフリカの税務参照番号"
       },
       "customPatterns": "カスタムパターン",
       "customPatternsDesc": "一致した部分は [CUSTOM_REDACTED] に置き換えられます。パターンは最大 {max} 件です。壊滅的なバックトラックの恐れがあるパターンは拒否されます。",

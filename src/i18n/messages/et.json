@@ -8940,7 +8940,9 @@
         "financial": "Finants",
         "brazilian": "Brasiilia",
         "usa": "USA",
-        "full": "Täielik"
+        "full": "Täielik",
+        "gdpr": "GDPR (EU)",
+        "popia": "POPIA (Lõuna-Aafrika)"
       },
       "builtinTypes": "Sisseehitatud tüübid",
       "types": {
@@ -8954,7 +8956,19 @@
         "ip_address": "IPv4-aadressid",
         "ipv6_address": "IPv6-aadressid",
         "aws_key": "AWS-i juurdepääsuvõtmed",
-        "api_key_generic": "API-võtmed ja tokenid"
+        "api_key_generic": "API-võtmed ja tokenid",
+        "iban": "IBAN pangakonto numbrid",
+        "eu_vat": "EU VAT numbrid",
+        "es_dni_nie": "hispaania DNI / NIE",
+        "it_codice_fiscale": "Itaalia Codice Fiscale",
+        "pl_pesel": "Poola PESEL",
+        "nl_bsn": "Hollandi BSN",
+        "de_steuer_id": "Saksa Steuer-ID",
+        "se_personnummer": "Rootsi personalinumber",
+        "za_id": "Lõuna-Aafrika ID numbrid",
+        "za_phone": "Lõuna-Aafrika telefoninumbrid",
+        "za_vat": "Lõuna-Aafrika VAT numbrid",
+        "za_tax_ref": "Lõuna-Aafrika maksuviited"
       },
       "customPatterns": "Kohandatud mustrid",
       "customPatternsDesc": "Vasted asendatakse tekstiga [CUSTOM_REDACTED]. Kuni {max} mustrit. Katastroofilise tagasiotsingu ohuga mustrid lükatakse tagasi.",

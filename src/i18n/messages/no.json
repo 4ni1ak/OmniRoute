@@ -8940,7 +8940,9 @@
         "financial": "Finansiell",
         "brazilian": "Brasiliansk",
         "usa": "USA",
-        "full": "Fullstendig"
+        "full": "Fullstendig",
+        "gdpr": "GDPR (EU)",
+        "popia": "POPIA (Sør-Afrika)"
       },
       "builtinTypes": "Innebygde typer",
       "types": {
@@ -8954,7 +8956,19 @@
         "ip_address": "IPv4-adresser",
         "ipv6_address": "IPv6-adresser",
         "aws_key": "AWS-tilgangsnøkler",
-        "api_key_generic": "API-nøkler og tokener"
+        "api_key_generic": "API-nøkler og tokener",
+        "iban": "IBAN bankkontonumre",
+        "eu_vat": "EU VAT tall",
+        "es_dni_nie": "Spansk DNI / NIE",
+        "it_codice_fiscale": "Italiensk Codice Fiscale",
+        "pl_pesel": "polsk PESEL",
+        "nl_bsn": "nederlandsk BSN",
+        "de_steuer_id": "Tysk Steuer-ID",
+        "se_personnummer": "Svensk personnummer",
+        "za_id": "Sørafrikanske ID tall",
+        "za_phone": "Sør-afrikanske telefonnumre",
+        "za_vat": "Sørafrikanske VAT tall",
+        "za_tax_ref": "Sørafrikanske skattereferanser"
       },
       "customPatterns": "Egne mønstre",
       "customPatternsDesc": "Treff erstattes med [CUSTOM_REDACTED]. Opptil {max} mønstre. Mønstre som risikerer katastrofal backtracking avvises.",

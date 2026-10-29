@@ -8940,7 +8940,9 @@
         "financial": "Finančná",
         "brazilian": "Brazílska",
         "usa": "USA",
-        "full": "Úplná"
+        "full": "Úplná",
+        "gdpr": "GDPR (EU)",
+        "popia": "POPIA (Južná Afrika)"
       },
       "builtinTypes": "Vstavané typy",
       "types": {
@@ -8954,7 +8956,19 @@
         "ip_address": "Adresy IPv4",
         "ipv6_address": "Adresy IPv6",
         "aws_key": "Prístupové kľúče AWS",
-        "api_key_generic": "Kľúče API a tokeny"
+        "api_key_generic": "Kľúče API a tokeny",
+        "iban": "čísla bankových účtov IBAN",
+        "eu_vat": "EU VAT čísla",
+        "es_dni_nie": "španielsky DNI / NIE",
+        "it_codice_fiscale": "Taliansky Codice Fiscale",
+        "pl_pesel": "Poľská PESEL",
+        "nl_bsn": "holandská BSN",
+        "de_steuer_id": "Nemecké Steuer-ID",
+        "se_personnummer": "švédske personnummer",
+        "za_id": "Juhoafrické čísla ID",
+        "za_phone": "telefónne čísla v Južnej Afrike",
+        "za_vat": "Juhoafrické čísla VAT",
+        "za_tax_ref": "Daňové referencie v Južnej Afrike"
       },
       "customPatterns": "Vlastné vzory",
       "customPatternsDesc": "Zhody sa nahrádzajú za [CUSTOM_REDACTED]. Najviac {max} vzorov. Vzory s rizikom katastrofického backtrackingu sa odmietajú.",

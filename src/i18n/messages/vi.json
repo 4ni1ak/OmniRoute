@@ -8940,7 +8940,9 @@
         "financial": "Tài chính",
         "brazilian": "Brazil",
         "usa": "Hoa Kỳ",
-        "full": "Đầy đủ"
+        "full": "Đầy đủ",
+        "gdpr": "GDPR (EU)",
+        "popia": "POPIA (Nam Phi)"
       },
       "builtinTypes": "Loại tích hợp sẵn",
       "types": {
@@ -8954,7 +8956,19 @@
         "ip_address": "Địa chỉ IPv4",
         "ipv6_address": "Địa chỉ IPv6",
         "aws_key": "Khóa truy cập AWS",
-        "api_key_generic": "Khóa API và token"
+        "api_key_generic": "Khóa API và token",
+        "iban": "số tài khoản ngân hàng IBAN",
+        "eu_vat": "số EU VAT",
+        "es_dni_nie": "DNI / NIE tiếng Tây Ban Nha",
+        "it_codice_fiscale": "Codice Fiscale của Ý",
+        "pl_pesel": "PESEL Lan",
+        "nl_bsn": "BSN Hà Lan",
+        "de_steuer_id": "Steuer-ID tiếng Đức",
+        "se_personnummer": "người Thụy Điển",
+        "za_id": "Số ID Nam Phi",
+        "za_phone": "Số điện thoại Nam Phi",
+        "za_vat": "Số VAT Nam Phi",
+        "za_tax_ref": "Tài liệu tham khảo thuế Nam Phi"
       },
       "customPatterns": "Mẫu tùy chỉnh",
       "customPatternsDesc": "Các kết quả khớp được thay bằng [CUSTOM_REDACTED]. Tối đa {max} mẫu. Mẫu có nguy cơ quay lui thảm họa sẽ bị từ chối.",

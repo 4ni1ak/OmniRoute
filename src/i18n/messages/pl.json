@@ -8940,7 +8940,9 @@
         "financial": "Finansowy",
         "brazilian": "Brazylijski",
         "usa": "USA",
-        "full": "Pełny"
+        "full": "Pełny",
+        "gdpr": "GDPR (EU)",
+        "popia": "POPIA (Afryka Południowa)"
       },
       "builtinTypes": "Typy wbudowane",
       "types": {
@@ -8954,7 +8956,19 @@
         "ip_address": "Adresy IPv4",
         "ipv6_address": "Adresy IPv6",
         "aws_key": "Klucze dostępu AWS",
-        "api_key_generic": "Klucze API i tokeny"
+        "api_key_generic": "Klucze API i tokeny",
+        "iban": "numery kont bankowych IBAN",
+        "eu_vat": "EU VAT numery",
+        "es_dni_nie": "Hiszpański DNI / NIE",
+        "it_codice_fiscale": "Włoski kodeks fiskalny",
+        "pl_pesel": "polski PESEL",
+        "nl_bsn": "holenderski BSN",
+        "de_steuer_id": "Niemiecki Steuer-ID",
+        "se_personnummer": "Szwedzki numer personalny",
+        "za_id": "Numery ID Republiki Południowej Afryki",
+        "za_phone": "Numery telefonów w Republice Południowej Afryki",
+        "za_vat": "Numery VAT Republiki Południowej Afryki",
+        "za_tax_ref": "Referencje podatkowe z Republiki Południowej Afryki"
       },
       "customPatterns": "Własne wzorce",
       "customPatternsDesc": "Dopasowania są zastępowane przez [CUSTOM_REDACTED]. Maksymalnie {max} wzorców. Wzorce grożące katastrofalnym backtrackingiem są odrzucane.",

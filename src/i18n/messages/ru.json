@@ -8940,7 +8940,9 @@
         "financial": "Финансовый",
         "brazilian": "Бразильский",
         "usa": "США",
-        "full": "Полный"
+        "full": "Полный",
+        "gdpr": "GDPR (ЕС)",
+        "popia": "POPIA (ЮАР)"
       },
       "builtinTypes": "Встроенные типы",
       "types": {
@@ -8954,7 +8956,19 @@
         "ip_address": "IPv4-адреса",
         "ipv6_address": "IPv6-адреса",
         "aws_key": "Ключи доступа AWS",
-        "api_key_generic": "API-ключи и токены"
+        "api_key_generic": "API-ключи и токены",
+        "iban": "Номера банковских счетов IBAN",
+        "eu_vat": "Номера плательщиков НДС в ЕС",
+        "es_dni_nie": "Испанские DNI / NIE",
+        "it_codice_fiscale": "Итальянский Codice Fiscale",
+        "pl_pesel": "Польский PESEL",
+        "nl_bsn": "Нидерландский BSN",
+        "de_steuer_id": "Немецкий Steuer-ID",
+        "se_personnummer": "Шведский personnummer",
+        "za_id": "Номера удостоверений личности ЮАР",
+        "za_phone": "Номера телефонов ЮАР",
+        "za_vat": "Номера НДС ЮАР",
+        "za_tax_ref": "Налоговые номера ЮАР"
       },
       "customPatterns": "Пользовательские шаблоны",
       "customPatternsDesc": "Совпадения заменяются на [CUSTOM_REDACTED]. До {max} шаблонов. Шаблоны с риском катастрофического бэктрекинга отклоняются.",

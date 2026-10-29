@@ -8940,7 +8940,9 @@
         "financial": "Pénzügyi",
         "brazilian": "Brazil",
         "usa": "USA",
-        "full": "Teljes"
+        "full": "Teljes",
+        "gdpr": "GDPR (EU)",
+        "popia": "POPIA (Dél-Afrika)"
       },
       "builtinTypes": "Beépített típusok",
       "types": {
@@ -8954,7 +8956,19 @@
         "ip_address": "IPv4-címek",
         "ipv6_address": "IPv6-címek",
         "aws_key": "AWS hozzáférési kulcsok",
-        "api_key_generic": "API-kulcsok és tokenek"
+        "api_key_generic": "API-kulcsok és tokenek",
+        "iban": "IBAN bankszámlaszámok",
+        "eu_vat": "EU VAT számok",
+        "es_dni_nie": "spanyol DNI / NIE",
+        "it_codice_fiscale": "Olasz Codice Fiscale",
+        "pl_pesel": "lengyel PESEL",
+        "nl_bsn": "holland BSN",
+        "de_steuer_id": "Német Steuer-ID",
+        "se_personnummer": "svéd személyi szám",
+        "za_id": "Dél-afrikai ID számok",
+        "za_phone": "Dél-afrikai telefonszámok",
+        "za_vat": "Dél-afrikai VAT számok",
+        "za_tax_ref": "Dél-afrikai adóhivatkozások"
       },
       "customPatterns": "Egyéni minták",
       "customPatternsDesc": "A találatokat a rendszer [CUSTOM_REDACTED] értékre cseréli. Legfeljebb {max} minta. A katasztrofális visszalépés kockázatával járó mintákat elutasítja.",

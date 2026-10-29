@@ -8940,7 +8940,9 @@
         "financial": "Ֆինանսական",
         "brazilian": "Բրազիլական",
         "usa": "ԱՄՆ",
-        "full": "Ամբողջական"
+        "full": "Ամբողջական",
+        "gdpr": "GDPR (EU)",
+        "popia": "POPIA (Հարավային Աֆրիկա)"
       },
       "builtinTypes": "Ներկառուցված տեսակներ",
       "types": {
@@ -8954,7 +8956,19 @@
         "ip_address": "IPv4 հասցեներ",
         "ipv6_address": "IPv6 հասցեներ",
         "aws_key": "AWS մուտքի բանալիներ",
-        "api_key_generic": "API բանալիներ և թոքեններ"
+        "api_key_generic": "API բանալիներ և թոքեններ",
+        "iban": "IBAN բանկային հաշվի համարները",
+        "eu_vat": "EU VAT թվեր",
+        "es_dni_nie": "Իսպաներեն DNI / NIE",
+        "it_codice_fiscale": "Իտալական Codice Fiscale",
+        "pl_pesel": "Լեհական PESEL",
+        "nl_bsn": "Հոլանդական BSN",
+        "de_steuer_id": "Գերմանական Steuer-ID",
+        "se_personnummer": "Շվեդական անձ",
+        "za_id": "Հարավաֆրիկյան ID համարներ",
+        "za_phone": "Հարավային Աֆրիկայի հեռախոսահամարներ",
+        "za_vat": "Հարավաֆրիկյան VAT համարներ",
+        "za_tax_ref": "Հարավաֆրիկյան հարկային տեղեկանքներ"
       },
       "customPatterns": "Հատուկ նմուշներ",
       "customPatternsDesc": "Համընկնումները փոխարինվում են [CUSTOM_REDACTED]-ով։ Մինչև {max} նմուշ։ Աղետալի հետընթացի ռիսկ ունեցող նմուշները մերժվում են։",
