@@ -6835,7 +6835,9 @@
     "rateLimitOverridesModelConcurrencyLabel": "Ліміти паралельності для окремих моделей",
     "rateLimitOverridesModelConcurrencyPlaceholder": "glm-5=1\nglm-4.7=3",
     "rateLimitOverridesModelConcurrencyHint": "Необов’язково: один запис model=cap на рядок, зіставляється з точним ідентифікатором моделі upstream. Зайві запити ставляться в локальну чергу; порожнє значення означає відсутність ліміту для моделі.",
-    "rateLimitOverridesModelConcurrencyInvalid": "Недійсний запис паралельності для моделі «{entry}» — використовуйте model=cap, де cap — ціле число від 1 до {max}."
+    "rateLimitOverridesModelConcurrencyInvalid": "Недійсний запис паралельності для моделі «{entry}» — використовуйте model=cap, де cap — ціле число від 1 до {max}.",
+    "usedInComboTooltip": "Використовується в комбо ({count}): {combos}",
+    "openComboTooltip": "Відкрити Комбо — використовується в {combo}"
   },
   "settings": {
     "title": "Налаштування",

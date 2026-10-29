@@ -6835,7 +6835,9 @@
     "rateLimitOverridesModelConcurrencyLabel": "Gelijktijdigheidslimieten per model",
     "rateLimitOverridesModelConcurrencyPlaceholder": "glm-5=1\nglm-4.7=3",
     "rateLimitOverridesModelConcurrencyHint": "Optioneel: één model=cap per regel, vergeleken met de exacte upstream-model-id. Extra verzoeken wachten lokaal in de wachtrij; leeg betekent geen limiet per model.",
-    "rateLimitOverridesModelConcurrencyInvalid": "Ongeldige gelijktijdigheidsinvoer per model \"{entry}\" — gebruik model=cap met een geheel getal van 1 tot {max}."
+    "rateLimitOverridesModelConcurrencyInvalid": "Ongeldige gelijktijdigheidsinvoer per model \"{entry}\" — gebruik model=cap met een geheel getal van 1 tot {max}.",
+    "usedInComboTooltip": "Gebruikt in {count} combo('s): {combos}",
+    "openComboTooltip": "Combo's openen — gebruikt door {combo}"
   },
   "settings": {
     "title": "Instellingen",

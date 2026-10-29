@@ -6835,7 +6835,9 @@
     "rateLimitOverridesModelConcurrencyLabel": "Límites de concurrencia por modelo",
     "rateLimitOverridesModelConcurrencyPlaceholder": "glm-5=1\nglm-4.7=3",
     "rateLimitOverridesModelConcurrencyHint": "Opcional: un modelo=límite por línea, comparado con el id exacto del modelo en el proveedor. Las solicitudes excedentes se ponen en cola localmente; en blanco significa sin límite por modelo.",
-    "rateLimitOverridesModelConcurrencyInvalid": "Entrada de concurrencia por modelo no válida \"{entry}\": usa modelo=límite con un número entero de 1 a {max}."
+    "rateLimitOverridesModelConcurrencyInvalid": "Entrada de concurrencia por modelo no válida \"{entry}\": usa modelo=límite con un número entero de 1 a {max}.",
+    "usedInComboTooltip": "Usado en {count} combinación(es): {combos}",
+    "openComboTooltip": "Abrir Combinaciones — usado por {combo}"
   },
   "settings": {
     "title": "Configuración",

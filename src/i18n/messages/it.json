@@ -6912,7 +6912,9 @@
     "rateLimitOverridesModelConcurrencyLabel": "Limiti di concorrenza per modello",
     "rateLimitOverridesModelConcurrencyPlaceholder": "glm-5=1\nglm-4.7=3",
     "rateLimitOverridesModelConcurrencyHint": "Facoltativo: un modello=limite per riga, confrontato con l'ID esatto del modello presso il fornitore. Le richieste in eccesso vengono accodate localmente; vuoto significa nessun limite per modello.",
-    "rateLimitOverridesModelConcurrencyInvalid": "Voce di concorrenza per modello non valida \"{entry}\": usa modello=limite con un numero intero da 1 a {max}."
+    "rateLimitOverridesModelConcurrencyInvalid": "Voce di concorrenza per modello non valida \"{entry}\": usa modello=limite con un numero intero da 1 a {max}.",
+    "usedInComboTooltip": "Usato in {count} combinazione/i: {combos}",
+    "openComboTooltip": "Apri Combinazioni — usato da {combo}"
   },
   "settings": {
     "title": "Impostazioni",

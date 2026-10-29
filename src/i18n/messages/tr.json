@@ -6835,7 +6835,9 @@
     "rateLimitOverridesModelConcurrencyLabel": "Model başına eşzamanlılık üst sınırları",
     "rateLimitOverridesModelConcurrencyPlaceholder": "glm-5=1\nglm-4.7=3",
     "rateLimitOverridesModelConcurrencyHint": "İsteğe bağlı: her satıra bir model=cap yazın; yukarı akıştaki tam model kimliğiyle eşleştirilir. Fazla istekler yerelde kuyruğa alınır; boş bırakılırsa model başına üst sınır yoktur.",
-    "rateLimitOverridesModelConcurrencyInvalid": "Geçersiz model başına eşzamanlılık girdisi \"{entry}\" — model=cap biçimini kullanın; cap, 1 ile {max} arasında bir tam sayı olmalıdır."
+    "rateLimitOverridesModelConcurrencyInvalid": "Geçersiz model başına eşzamanlılık girdisi \"{entry}\" — model=cap biçimini kullanın; cap, 1 ile {max} arasında bir tam sayı olmalıdır.",
+    "usedInComboTooltip": "{count} kombinasyonda kullanılıyor: {combos}",
+    "openComboTooltip": "Kombinasyonları aç — {combo} tarafından kullanılıyor"
   },
   "settings": {
     "title": "Ayarlar",
